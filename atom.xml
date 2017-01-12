@@ -123,6 +123,43 @@
   </entry>
   
   <entry>
+    <title>摘录/笔记/发布，各领域新调整（第三版局部修订）</title>
+    <link href="http://hexo1.cpxxpc.com/2017/01/08/D2/"/>
+    <id>http://hexo1.cpxxpc.com/2017/01/08/D2/</id>
+    <published>2017-01-07T16:00:00.000Z</published>
+    <updated>2017-01-11T06:00:20.081Z</updated>
+    
+    <content type="html"><![CDATA[<p>顺应整体，对原<a href="http://cpxxpc.com/2016/12/02/D1/" target="_blank" rel="external">第三版</a>“发布类”部分做了以下局部修订：</p>
+<p>发布类——</p>
+<ul>
+<li>博客（主页）——<ul>
+<li>移动端（侧重文字类）：<strong>Simplenote</strong>书写并同步，Mac05电脑端发布      </li>
+<li>电脑端（侧重图文类）：<strong>MarkEditor</strong>书写并由NAS01同步至Mac05（配图由七牛外链并备份至NAS01）- Mac05命令行发布 - 自动由Mac05备份至NAS01</li>
+</ul>
+</li>
+<li>微博：Twitter（移动端）、官网页面（电脑端）</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;顺应整体，对原&lt;a href=&quot;http://cpxxpc.com/2016/12/02/D1/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;第三版&lt;/a&gt;“发布类”部分做了以下局部修订：&lt;/p&gt;
+&lt;p&gt;发布类——&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;博客（主页）
+    
+    </summary>
+    
+      <category term="杂录" scheme="http://hexo1.cpxxpc.com/categories/%E6%9D%82%E5%BD%95/"/>
+    
+      <category term="站务" scheme="http://hexo1.cpxxpc.com/categories/%E6%9D%82%E5%BD%95/%E7%AB%99%E5%8A%A1/"/>
+    
+    
+      <category term="2017" scheme="http://hexo1.cpxxpc.com/tags/2017/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Hexo+Git新架构，写博新体验</title>
     <link href="http://hexo1.cpxxpc.com/2017/01/08/D1/"/>
     <id>http://hexo1.cpxxpc.com/2017/01/08/D1/</id>
@@ -150,43 +187,6 @@
     
       &lt;p&gt;近日，为了排解腰腿不适的身心痛楚，利用单位及家中的空闲时间，从零开始摸索着鼓弄了一番Hexo这个比较极客的东西。还好，时间并未完全浪费，目前已初步掌握了用其建博的流程与要领，并且已构建出了一套以Mac05为终端的更新与发布平台（以Mac05为本地端，Github为网络端）。经过几天的测试与调整，已决定将它“扶正”，取代原Jekyll版的地位。&lt;/p&gt;
 &lt;p&gt;作出这样的决定，并非一时冲动，而是基于以下几点的考虑—
-    
-    </summary>
-    
-      <category term="杂录" scheme="http://hexo1.cpxxpc.com/categories/%E6%9D%82%E5%BD%95/"/>
-    
-      <category term="站务" scheme="http://hexo1.cpxxpc.com/categories/%E6%9D%82%E5%BD%95/%E7%AB%99%E5%8A%A1/"/>
-    
-    
-      <category term="2017" scheme="http://hexo1.cpxxpc.com/tags/2017/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>摘录/笔记/发布，各领域新调整（第三版局部修订）</title>
-    <link href="http://hexo1.cpxxpc.com/2017/01/08/D2/"/>
-    <id>http://hexo1.cpxxpc.com/2017/01/08/D2/</id>
-    <published>2017-01-07T16:00:00.000Z</published>
-    <updated>2017-01-11T06:00:20.081Z</updated>
-    
-    <content type="html"><![CDATA[<p>顺应整体，对原<a href="http://cpxxpc.com/2016/12/02/D1/" target="_blank" rel="external">第三版</a>“发布类”部分做了以下局部修订：</p>
-<p>发布类——</p>
-<ul>
-<li>博客（主页）——<ul>
-<li>移动端（侧重文字类）：<strong>Simplenote</strong>书写并同步，Mac05电脑端发布      </li>
-<li>电脑端（侧重图文类）：<strong>MarkEditor</strong>书写并由NAS01同步至Mac05（配图由七牛外链并备份至NAS01）- Mac05命令行发布 - 自动由Mac05备份至NAS01</li>
-</ul>
-</li>
-<li>微博：Twitter（移动端）、官网页面（电脑端）</li>
-</ul>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;顺应整体，对原&lt;a href=&quot;http://cpxxpc.com/2016/12/02/D1/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;第三版&lt;/a&gt;“发布类”部分做了以下局部修订：&lt;/p&gt;
-&lt;p&gt;发布类——&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;博客（主页）
     
     </summary>
     
