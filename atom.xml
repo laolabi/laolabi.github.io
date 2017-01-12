@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://hexo1.cpxxpc.com/"/>
-  <updated>2017-01-11T04:15:04.770Z</updated>
+  <updated>2017-01-12T05:43:27.353Z</updated>
   <id>http://hexo1.cpxxpc.com/</id>
   
   <author>
@@ -14,6 +14,72 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>个人Hexo站点汇总</title>
+    <link href="http://hexo1.cpxxpc.com/2017/01/12/D1/"/>
+    <id>http://hexo1.cpxxpc.com/2017/01/12/D1/</id>
+    <published>2017-01-11T16:00:00.000Z</published>
+    <updated>2017-01-12T05:43:27.353Z</updated>
+    
+    <content type="html"><![CDATA[<p>为便于识别与管理，简单汇总下基于Hexo的各同步及测试站点（依托Typora强大而便捷的表格功能加以制作）。</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">代称</th>
+<th style="text-align:center">本地端</th>
+<th style="text-align:center">网络端</th>
+<th style="text-align:center">绑定域名</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">主站</td>
+<td style="text-align:center">Mac05</td>
+<td style="text-align:center">Coding</td>
+<td style="text-align:center"><a href="http://cpxxpc.com" target="_blank" rel="external">cpxxpc.com</a></td>
+</tr>
+<tr>
+<td style="text-align:center">镜像站1</td>
+<td style="text-align:center">Mac05</td>
+<td style="text-align:center">Github</td>
+<td style="text-align:center"><a href="http://hexo.cpxxpc.com" target="_blank" rel="external">hexo.cpxxpc.com</a></td>
+</tr>
+<tr>
+<td style="text-align:center">镜像站2</td>
+<td style="text-align:center">Mac05</td>
+<td style="text-align:center">NAS01</td>
+<td style="text-align:center"><a href="http://hexo0.cpxxpc.com" target="_blank" rel="external">hexo0.cpxxpc.com</a></td>
+</tr>
+<tr>
+<td style="text-align:center">测试站</td>
+<td style="text-align:center">TSS</td>
+<td style="text-align:center">Github</td>
+<td style="text-align:center"><a href="http://hexo1.cpxxpc.com">hexo1.cpxxpc.com</a></td>
+</tr>
+</tbody>
+</table>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;为便于识别与管理，简单汇总下基于Hexo的各同步及测试站点（依托Typora强大而便捷的表格功能加以制作）。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&quot;text-align:center&quot;&gt;代称&lt;/th&gt;
+&lt;th style=&quot;text-ali
+    
+    </summary>
+    
+      <category term="杂录" scheme="http://hexo1.cpxxpc.com/categories/%E6%9D%82%E5%BD%95/"/>
+    
+      <category term="站务" scheme="http://hexo1.cpxxpc.com/categories/%E6%9D%82%E5%BD%95/%E7%AB%99%E5%8A%A1/"/>
+    
+    
+      <category term="2017" scheme="http://hexo1.cpxxpc.com/tags/2017/"/>
+    
+  </entry>
   
   <entry>
     <title>“平安是幸，健康是福”</title>
@@ -164,7 +230,7 @@
     <link href="http://hexo1.cpxxpc.com/2017/01/08/D1/"/>
     <id>http://hexo1.cpxxpc.com/2017/01/08/D1/</id>
     <published>2017-01-07T16:00:00.000Z</published>
-    <updated>2017-01-11T07:12:03.682Z</updated>
+    <updated>2017-01-12T05:33:26.861Z</updated>
     
     <content type="html"><![CDATA[<p>近日，为了排解腰腿不适的身心痛楚，利用单位及家中的空闲时间，从零开始摸索着鼓弄了一番Hexo这个比较极客的东西。还好，时间并未完全浪费，目前已初步掌握了用其建博的流程与要领，并且已构建出了一套以Mac05为终端的更新与发布平台（以Mac05为本地端，Github为网络端）。经过几天的测试与调整，已决定将它“扶正”，取代原Jekyll版的地位。</p>
 <p>作出这样的决定，并非一时冲动，而是基于以下几点的考虑—<a id="more"></a></p>
@@ -179,7 +245,7 @@
 <p>由于仍然基于Git这方“热土”，仅仅架构内核与构建方式发生了变化，所以本次改动算不上迭代式的大变化；原Jekyll站已暂停更新，以 jekyll.cpxxpc.com 地址作以留存。</p>
 <p>本文作为2017开篇日志，同时也是新模式下发布的第一文，顺便纪念下！</p>
 <p>PS：为追求更稳定的访问效果，也为了尝试下通过Git同步发布至不同服务商，现已引入Coding与Github双轨发布，并已暂定以Coding为主（绑定主域名），Github为辅（绑定辅助域名 hexo.cpxxpc.com），特此标记。（170109补注）</p>
-<p>PS：因当前Github局部访问不正常，影响正常发布，决定暂停Github镜像站的同步更新；同时，尝试通过FTPSync方式新建位于Nas01的镜像站（绑定辅助域名 hexo0.cpxxpc.com），与Coding主站同步更新。（170110补注）</p>
+<p>PS：因当前Github局部访问不正常，影响正常发布，决定暂停Github镜像站的同步更新；同时，尝试通过FTPSync方式新建位于NAS01的镜像站（绑定辅助域名 hexo0.cpxxpc.com），与Coding主站同步更新。（170110补注）</p>
 <p>PS：貌似Github已可正常访问，暂且恢复其同步镜像更新。（170111补注）</p>
 ]]></content>
     
@@ -227,34 +293,6 @@
   </entry>
   
   <entry>
-    <title>主页/博客区隔调整</title>
-    <link href="http://hexo1.cpxxpc.com/2016/12/28/D1/"/>
-    <id>http://hexo1.cpxxpc.com/2016/12/28/D1/</id>
-    <published>2016-12-27T16:00:00.000Z</published>
-    <updated>2017-01-11T00:39:53.950Z</updated>
-    
-    <content type="html"><![CDATA[<p>近两日，对此博客/主页进行了一点调整，主要是使之在各种分别率的设备上均能够自动隐藏博客部分，以对主页（默认显示）与博客（默认隐藏）加以明确区隔。</p>
-<p>此过程中，对主页部分的布局进行了微调，以体现简约、个性、导航的特点；至于博客部分，本着低调、自我、闲适的需求进行了退隐化处理。</p>
-<p>低调有情致，真我空间也~~</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;近两日，对此博客/主页进行了一点调整，主要是使之在各种分别率的设备上均能够自动隐藏博客部分，以对主页（默认显示）与博客（默认隐藏）加以明确区隔。&lt;/p&gt;
-&lt;p&gt;此过程中，对主页部分的布局进行了微调，以体现简约、个性、导航的特点；至于博客部分，本着低调、自我、闲适的需求进行了
-    
-    </summary>
-    
-      <category term="杂录" scheme="http://hexo1.cpxxpc.com/categories/%E6%9D%82%E5%BD%95/"/>
-    
-      <category term="站务" scheme="http://hexo1.cpxxpc.com/categories/%E6%9D%82%E5%BD%95/%E7%AB%99%E5%8A%A1/"/>
-    
-    
-      <category term="2016" scheme="http://hexo1.cpxxpc.com/tags/2016/"/>
-    
-  </entry>
-  
-  <entry>
     <title>近况小语（161228）</title>
     <link href="http://hexo1.cpxxpc.com/2016/12/28/A1/"/>
     <id>http://hexo1.cpxxpc.com/2016/12/28/A1/</id>
@@ -278,6 +316,34 @@
     </summary>
     
       <category term="随笔" scheme="http://hexo1.cpxxpc.com/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="2016" scheme="http://hexo1.cpxxpc.com/tags/2016/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>主页/博客区隔调整</title>
+    <link href="http://hexo1.cpxxpc.com/2016/12/28/D1/"/>
+    <id>http://hexo1.cpxxpc.com/2016/12/28/D1/</id>
+    <published>2016-12-27T16:00:00.000Z</published>
+    <updated>2017-01-11T00:39:53.950Z</updated>
+    
+    <content type="html"><![CDATA[<p>近两日，对此博客/主页进行了一点调整，主要是使之在各种分别率的设备上均能够自动隐藏博客部分，以对主页（默认显示）与博客（默认隐藏）加以明确区隔。</p>
+<p>此过程中，对主页部分的布局进行了微调，以体现简约、个性、导航的特点；至于博客部分，本着低调、自我、闲适的需求进行了退隐化处理。</p>
+<p>低调有情致，真我空间也~~</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;近两日，对此博客/主页进行了一点调整，主要是使之在各种分别率的设备上均能够自动隐藏博客部分，以对主页（默认显示）与博客（默认隐藏）加以明确区隔。&lt;/p&gt;
+&lt;p&gt;此过程中，对主页部分的布局进行了微调，以体现简约、个性、导航的特点；至于博客部分，本着低调、自我、闲适的需求进行了
+    
+    </summary>
+    
+      <category term="杂录" scheme="http://hexo1.cpxxpc.com/categories/%E6%9D%82%E5%BD%95/"/>
+    
+      <category term="站务" scheme="http://hexo1.cpxxpc.com/categories/%E6%9D%82%E5%BD%95/%E7%AB%99%E5%8A%A1/"/>
     
     
       <category term="2016" scheme="http://hexo1.cpxxpc.com/tags/2016/"/>
@@ -623,66 +689,6 @@
     </summary>
     
       <category term="随笔" scheme="http://hexo1.cpxxpc.com/categories/%E9%9A%8F%E7%AC%94/"/>
-    
-    
-      <category term="2016" scheme="http://hexo1.cpxxpc.com/tags/2016/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>摘录/笔记/发布，各领域新调整（第二版）</title>
-    <link href="http://hexo1.cpxxpc.com/2016/08/29/D1/"/>
-    <id>http://hexo1.cpxxpc.com/2016/08/29/D1/</id>
-    <published>2016-08-28T16:00:00.000Z</published>
-    <updated>2017-01-11T05:58:09.978Z</updated>
-    
-    <content type="html"><![CDATA[<p>原版见<a href="http://cpxxpc.com/2016/07/06/D1" target="_blank" rel="external">此文</a>，以下为完善后的新版各领域具体配置与流程安排：</p>
-<p>摘录类（全文）——</p>
-<ul>
-<li><strong>印象笔记</strong>（总库）</li>
-<li><strong>Instapaper</strong>（稍后读，加星入印象笔记）</li>
-<li>Safari阅读列表（稍后读，必要项入印象笔记）</li>
-<li>微信收藏（特用）</li>
-</ul>
-<p>摘录类（片段）——<a id="more"></a></p>
-<ul>
-<li>移动端：复制后通过Workflow预置工作流添加至印象笔记指定笔记中（按<a href="http://sspai.com/35281" target="_blank" rel="external">此文</a>设置）</li>
-<li>电脑端：通过Command-C推送至移动端，再通过移动端工作流完成整理</li>
-</ul>
-<p>笔记类——</p>
-<ul>
-<li><strong>系统备忘录</strong>（备忘+自语）</li>
-<li><strong>DayOne</strong>（日记+随拍）</li>
-<li>NAS01（文档类）</li>
-</ul>
-<p>发布类——</p>
-<ul>
-<li>博客（主页）——<ul>
-<li>移动端（侧重文字类）：<strong>Ulysses</strong>书写并发布（iCloud自动备份同步）- NAS01同步备份      </li>
-<li>电脑端（侧重图文类）：<strong>Ulysses</strong>书写并发布（iCloud自动备份同步；有配图则借助iPic上传图片并获取七牛外链）- NAS01同步备份   <em>PS：电脑端指Mac平台；Win平台可借助WordMark书写与发布（七牛手工外链）</em></li>
-</ul>
-</li>
-<li>微博：Twitter（移动端）、官网页面（电脑端）</li>
-</ul>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;原版见&lt;a href=&quot;http://cpxxpc.com/2016/07/06/D1&quot;&gt;此文&lt;/a&gt;，以下为完善后的新版各领域具体配置与流程安排：&lt;/p&gt;
-&lt;p&gt;摘录类（全文）——&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;印象笔记&lt;/strong&gt;（总库）&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Instapaper&lt;/strong&gt;（稍后读，加星入印象笔记）&lt;/li&gt;
-&lt;li&gt;Safari阅读列表（稍后读，必要项入印象笔记）&lt;/li&gt;
-&lt;li&gt;微信收藏（特用）&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;摘录类（片段）——
-    
-    </summary>
-    
-      <category term="杂录" scheme="http://hexo1.cpxxpc.com/categories/%E6%9D%82%E5%BD%95/"/>
-    
-      <category term="站务" scheme="http://hexo1.cpxxpc.com/categories/%E6%9D%82%E5%BD%95/%E7%AB%99%E5%8A%A1/"/>
     
     
       <category term="2016" scheme="http://hexo1.cpxxpc.com/tags/2016/"/>
