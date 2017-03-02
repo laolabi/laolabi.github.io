@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://hexo1.cpxxpc.com/"/>
-  <updated>2017-01-13T14:21:31.000Z</updated>
+  <updated>2017-03-02T02:55:37.932Z</updated>
   <id>http://hexo1.cpxxpc.com/</id>
   
   <author>
@@ -16,11 +16,578 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Ghost子站博文简汇</title>
+    <link href="http://hexo1.cpxxpc.com/2017/03/02/D1/"/>
+    <id>http://hexo1.cpxxpc.com/2017/03/02/D1/</id>
+    <published>2017-03-01T16:00:00.000Z</published>
+    <updated>2017-03-02T02:55:37.932Z</updated>
+    
+    <content type="html"><![CDATA[<p>鉴于Hexo主站纯VPS化后，发布与更新的操作已可随时随地进行，加上精力有限，对Ghost的“魅力”也已有所体验，因此决定基于Ghost构建的子站（hello站）暂停更新。为便于今后回顾，将于此子站已发布的几篇博文汇总于下，以便回顾与归档（两篇与主站并发的博文仅列标题）。<a id="more"></a></p>
+<p><img src="http://image.cpxxpc.com/ghost.png" alt=""></p>
+<h4 id="停止折腾，回归宁静丨170201"><a href="#停止折腾，回归宁静丨170201" class="headerlink" title="停止折腾，回归宁静丨170201"></a>停止折腾，回归宁静丨170201</h4><h4 id="随心所欲开写吧…丨170202"><a href="#随心所欲开写吧…丨170202" class="headerlink" title="随心所欲开写吧…丨170202"></a>随心所欲开写吧…丨170202</h4><p>作为许久以来建站方面的一个心结，也作为此前数日折腾的重要妥协成果之一，搭建在Ghost+Docker+Vultr的这个子博客算是“开博”了。究竟应该在这上面写点什么呢？毫无疑问，必须与基于Hexo的主站相区隔，不能再为自己添麻烦，做些无用功，搭建个与主站同步更新的“镜像站”之类的了。</p>
+<p>想了一下，还是不做严格限定，就随心所欲的写点不登大雅的纯随笔、纯杂录之类的吧，不讲求文法、不讲求工整对仗、不必字斟句酌、不强求保持更新频度、不……（当然，满意之作也可入选主站发布）</p>
+<p>标签（分类）之类的也简化点，就分两类，代号A为随笔类，代号D为杂录类（遵照主站排序习惯）；鉴于容器化的稳定性，切记随时一键导出备份。</p>
+<p>OK，这就开始吧！</p>
+<h4 id="对VPS的一些收官调整丨170204"><a href="#对VPS的一些收官调整丨170204" class="headerlink" title="对VPS的一些收官调整丨170204"></a>对VPS的一些收官调整丨170204</h4><p>就在刚才，刚刚完成了对VPS的一次收官调整，下面简单列举下这最后一次如此熬夜（但愿是）的战果——</p>
+<ul>
+<li>主机面板由收费的AMH改为免费的BT（宝塔）</li>
+<li>由互抢端口的A&amp;N并存改为清净的仅nginx独存（wp架构的麦收客镜像站因此姑且取消了“养眼”的固定链接结构）</li>
+<li>受此益，ghost子站终可通过不含端口的真独立域名访问（子站顺势正式定名及定域名，可简称hello站，庆贺一下～）</li>
+</ul>
+<p>OK，切记：架构已清，别再这么折腾了，别再这么熬夜了！！</p>
+<h4 id="正式开篇语丨170204"><a href="#正式开篇语丨170204" class="headerlink" title="正式开篇语丨170204"></a>正式开篇语丨170204</h4><p>新的子博客（子站）算是开写了，不仅域名与站名已经确定，而且“自由自在，所思所想”的立足点也已确定，那就没必要多说什么了，这就随时随地开始写吧～</p>
+<p>仅以此，作为此ghost小站的正式开篇语。</p>
+<h4 id="主机“失联”之善后丨170204"><a href="#主机“失联”之善后丨170204" class="headerlink" title="主机“失联”之善后丨170204"></a>主机“失联”之善后丨170204</h4><p>因Vultr主机莫名其妙“失联”，今晚被迫进行了一次重启，不出所料，这个并不完善的ghost小站不得不重新组建了下。虽然占用时间和精力并不多（得益于Docker架构及充足备份），但因移动端书写后无法进行导出备份，如果此类故障出现在移动端书写后尚未通过电脑端备份的情况下，那无疑会导致新文字的丢失，那可就杯具了～</p>
+<p>因此，是要考虑在移动端畅快书写后的及时容灾备份的问题了，毕竟，未雨绸缪要远胜于亡羊补牢啊！！</p>
+<p>PS：可喜的是，基于Wordpress的旧站已成功完成了在nignx下的正常固定链接显示，感谢那篇清晰易懂的博文。</p>
+<h4 id="转站“主机公园”丨170205"><a href="#转站“主机公园”丨170205" class="headerlink" title="转站“主机公园”丨170205"></a>转站“主机公园”丨170205</h4><h4 id="年付购买需谨慎，国外绑卡需远离丨170207"><a href="#年付购买需谨慎，国外绑卡需远离丨170207" class="headerlink" title="年付购买需谨慎，国外绑卡需远离丨170207"></a>年付购买需谨慎，国外绑卡需远离丨170207</h4><p>年付VPN的退款还未有结果，在Vultr中试图删除绑定信用卡失误又从aya的账户中划走了10$，本来通过主机公园一台VPS就可以全搞定的事情，费了半天周折却还要赔了夫人又折兵，呜呜~~</p>
+<p>虽均已申请退款，目前尚无结果，但也不做更多期待，实在不济就算拿这二百多元交个学费、买个教训吧！</p>
+<p>今后切记：年付购买需谨慎，国外绑卡需远离！！</p>
+<h4 id="近日里（170216）丨170216"><a href="#近日里（170216）丨170216" class="headerlink" title="近日里（170216）丨170216"></a>近日里（170216）丨170216</h4><p>近日里，2.14前给aya一个小小的惊喜，给自己带来了Pi这一小礼物；2.15新房正式开工，开启了一段忙碌的装修阶段，也开启了新房新生活的脚步……</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;鉴于Hexo主站纯VPS化后，发布与更新的操作已可随时随地进行，加上精力有限，对Ghost的“魅力”也已有所体验，因此决定基于Ghost构建的子站（hello站）暂停更新。为便于今后回顾，将于此子站已发布的几篇博文汇总于下，以便回顾与归档（两篇与主站并发的博文仅列标题）。
+    
+    </summary>
+    
+      <category term="杂录" scheme="http://hexo1.cpxxpc.com/categories/%E6%9D%82%E5%BD%95/"/>
+    
+      <category term="站务" scheme="http://hexo1.cpxxpc.com/categories/%E6%9D%82%E5%BD%95/%E7%AB%99%E5%8A%A1/"/>
+    
+    
+      <category term="2017" scheme="http://hexo1.cpxxpc.com/tags/2017/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo主站外停更自告</title>
+    <link href="http://hexo1.cpxxpc.com/2017/03/02/D2/"/>
+    <id>http://hexo1.cpxxpc.com/2017/03/02/D2/</id>
+    <published>2017-03-01T16:00:00.000Z</published>
+    <updated>2017-03-02T08:03:00.370Z</updated>
+    
+    <content type="html"><![CDATA[<p>为进一步减少精力占用，突出重点，决定从即日起停止各Hexo镜像站、测试站更新，仅保留主站日常更新，特此自告。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;为进一步减少精力占用，突出重点，决定从即日起停止各Hexo镜像站、测试站更新，仅保留主站日常更新，特此自告。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="杂录" scheme="http://hexo1.cpxxpc.com/categories/%E6%9D%82%E5%BD%95/"/>
+    
+      <category term="站务" scheme="http://hexo1.cpxxpc.com/categories/%E6%9D%82%E5%BD%95/%E7%AB%99%E5%8A%A1/"/>
+    
+    
+      <category term="2017" scheme="http://hexo1.cpxxpc.com/tags/2017/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>摘录/笔记/发布全流程（第四版.修正一）</title>
+    <link href="http://hexo1.cpxxpc.com/2017/03/01/D1/"/>
+    <id>http://hexo1.cpxxpc.com/2017/03/01/D1/</id>
+    <published>2017-02-28T16:00:00.000Z</published>
+    <updated>2017-03-01T06:04:47.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>此前<a href="http://cpxxpc.com/2016/07/06/D1" target="_blank" rel="external">第一版</a>、<a href="http://cpxxpc.com/2016/08/29/D1" target="_blank" rel="external">第二版</a>、<a href="http://cpxxpc.com/2016/12/02/D1/" target="_blank" rel="external">第三版</a>、<a href="http://cpxxpc.com/2017/01/21/D1/" target="_blank" rel="external">第四版</a>，以下为第四版局部修正一。</p>
+<p>PS：此版通过思维导图工具MindNode编制并导出，导图原版可<a href="https://my.mindnode.com/A6FeqhT6RugmGySsR9okYCYsMsZKsojx5J7TWSg4#59.5,47.0,2" target="_blank" rel="external">点此</a>浏览。<a id="more"></a></p>
+<h4 id="A-摘录类"><a href="#A-摘录类" class="headerlink" title="A 摘录类"></a>A 摘录类</h4><h5 id="a-全文摘录"><a href="#a-全文摘录" class="headerlink" title="a 全文摘录"></a>a 全文摘录</h5><ul>
+<li>移动端<ul>
+<li><strong>Instapaper</strong>丨app+插件</li>
+<li>Safari阅读列表</li>
+<li>微信收藏丨主要通过iPhone04操作</li>
+</ul>
+</li>
+<li>Mac端<ul>
+<li><strong>Instapaper</strong>丨网页+插件</li>
+<li>Safari阅读列表</li>
+</ul>
+</li>
+<li>PC端<ul>
+<li><strong>Instapaper</strong>丨网页+插件</li>
+</ul>
+</li>
+</ul>
+<h5 id="b-片段摘录"><a href="#b-片段摘录" class="headerlink" title="b 片段摘录"></a>b 片段摘录</h5><ul>
+<li>移动端<ul>
+<li><strong>Bear</strong>丨语丝、留存通过Workflow预置工作流添加；另有书摘、教程直接添加</li>
+</ul>
+</li>
+<li>Mac端<ul>
+<li><strong>Bear</strong>丨插件采集→整理</li>
+</ul>
+</li>
+<li>PC端<ul>
+<li>Simplenote丨插件采集→同步至移动或Mac端→导入Bear整理</li>
+</ul>
+</li>
+</ul>
+<h5 id="c-图片摘录"><a href="#c-图片摘录" class="headerlink" title="c 图片摘录"></a>c 图片摘录</h5><ul>
+<li>移动端丨保存至相册→通过FileExplorer上传至坚果云图丝文件夹(手动删除本地图片)→坚果云同步至电脑端</li>
+<li>Mac端+PC端丨保存至本地图丝文件夹→通过坚果云完成同步</li>
+</ul>
+<h4 id="B-笔记类"><a href="#B-笔记类" class="headerlink" title="B 笔记类"></a>B 笔记类</h4><ul>
+<li>移动端<ul>
+<li><strong>Bear</strong>丨自语、要录通过Workflow预置工作流添加</li>
+<li><strong>DayOne</strong>丨包括日记+随拍；主要通过iPhone04操作</li>
+</ul>
+</li>
+<li>Mac端<ul>
+<li><strong>Bear</strong></li>
+<li>DayOne丨批量导出备份</li>
+<li>文档类丨通过坚果云同步与备份</li>
+</ul>
+</li>
+<li>PC端<ul>
+<li>Simplenote丨同步至移动或Mac端后汇总整理</li>
+<li>文档类丨通过坚果云同步与备份</li>
+</ul>
+</li>
+</ul>
+<h4 id="C-发布类"><a href="#C-发布类" class="headerlink" title="C 发布类"></a>C 发布类</h4><h5 id="a-博客发布"><a href="#a-博客发布" class="headerlink" title="a 博客发布"></a>a 博客发布</h5><ul>
+<li>移动端<ul>
+<li>FileExploere丨书写后通过ftp上传至VPS（通过Syncthing同步备份至各设备）→ssh命令行发布（PS：侧重文字类）</li>
+</ul>
+</li>
+<li>Mac端+PC端<ul>
+<li><strong>MarkEditor</strong>丨书写后通过Syncthing同步备份至VPS（配图由七牛外链并备份至坚果云）→ssh命令行发布</li>
+</ul>
+</li>
+</ul>
+<h5 id="b-微博发布"><a href="#b-微博发布" class="headerlink" title="b 微博发布"></a>b 微博发布</h5><ul>
+<li>移动端丨通过Workflow预置工作流（文字类）或客户端（图文类）发布至Twitter→通过IFTTT同步至Weibo</li>
+<li>Mac端丨通过侧边快捷栏（文字类）或网页（图文类）发布至Twitter→通过IFTTT同步至Weibo</li>
+<li>PC端丨通过网页发布至Twitter→通过IFTTT同步至Weibo</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;此前&lt;a href=&quot;http://cpxxpc.com/2016/07/06/D1&quot;&gt;第一版&lt;/a&gt;、&lt;a href=&quot;http://cpxxpc.com/2016/08/29/D1&quot;&gt;第二版&lt;/a&gt;、&lt;a href=&quot;http://cpxxpc.com/2016/12/02/D1/&quot;&gt;第三版&lt;/a&gt;、&lt;a href=&quot;http://cpxxpc.com/2017/01/21/D1/&quot;&gt;第四版&lt;/a&gt;，以下为第四版局部修正一。&lt;/p&gt;
+&lt;p&gt;PS：此版通过思维导图工具MindNode编制并导出，导图原版可&lt;a href=&quot;https://my.mindnode.com/A6FeqhT6RugmGySsR9okYCYsMsZKsojx5J7TWSg4#59.5,47.0,2&quot;&gt;点此&lt;/a&gt;浏览。
+    
+    </summary>
+    
+      <category term="杂录" scheme="http://hexo1.cpxxpc.com/categories/%E6%9D%82%E5%BD%95/"/>
+    
+      <category term="站务" scheme="http://hexo1.cpxxpc.com/categories/%E6%9D%82%E5%BD%95/%E7%AB%99%E5%8A%A1/"/>
+    
+    
+      <category term="2017" scheme="http://hexo1.cpxxpc.com/tags/2017/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo全面拥抱VPS</title>
+    <link href="http://hexo1.cpxxpc.com/2017/02/28/D1/"/>
+    <id>http://hexo1.cpxxpc.com/2017/02/28/D1/</id>
+    <published>2017-02-27T16:00:00.000Z</published>
+    <updated>2017-02-28T08:17:14.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>昨晚，在主机公园VPS上构建了Hexo运行环境（部分参考了<a href="https://www.v2ex.com/t/154707" target="_blank" rel="external">此文</a>），随后将Hexo博客主站数据迁移至此，并通过ftpsync方式发布至同VPS站点目录，实现了主站的纯VPS化。</p>
+<p>今天，在VPS及各电脑（包括树莓派）上安装并配置了Syncthing（参考了<a href="http://www.jianshu.com/p/4235cc85c32d" target="_blank" rel="external">此文</a>），解决了VPS中.md文件的本地备份与同步的问题（当然，移动端此法无效，是通过FileExplorer中添加ftp的方式实现的）。</p>
+<p>Hexo@VPS，一定要稳住啊！</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;昨晚，在主机公园VPS上构建了Hexo运行环境（部分参考了&lt;a href=&quot;https://www.v2ex.com/t/154707&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;此文&lt;/a&gt;），随后将Hexo博客主站数据迁移至此，并通过ftpsync方
+    
+    </summary>
+    
+      <category term="杂录" scheme="http://hexo1.cpxxpc.com/categories/%E6%9D%82%E5%BD%95/"/>
+    
+      <category term="站务" scheme="http://hexo1.cpxxpc.com/categories/%E6%9D%82%E5%BD%95/%E7%AB%99%E5%8A%A1/"/>
+    
+    
+      <category term="2017" scheme="http://hexo1.cpxxpc.com/tags/2017/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello Raspberry Pi</title>
+    <link href="http://hexo1.cpxxpc.com/2017/02/28/D2/"/>
+    <id>http://hexo1.cpxxpc.com/2017/02/28/D2/</id>
+    <published>2017-02-27T16:00:00.000Z</published>
+    <updated>2017-02-28T20:38:32.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>其实，从2.13至今，已经与树莓派3B亲密接触了半个月时间。这期间，主要折腾如下——</p>
+<ul>
+<li><p>依托官方系统（Raspbian）进行了一些常规优化，使其可以行使一台“轻电脑”的职责（主要是围绕浏览器及文件管理器完成一些日常的休闲、娱乐类闲事）</p>
+</li>
+<li><p>通过lnmp构建了网络环境并建立了测试站，通过花生壳实现了内网穿透（ngrok.cc亦可）</p>
+</li>
+<li><p>其他如airplay音乐投射、bt下载等</p>
+</li>
+<li><p>其他几个系统，包括两个机顶盒系统等（其中win10定制版太专业、centos未成功），均为浅尝辄止</p>
+</li>
+</ul>
+<p>尚且未实现的用途（受限于个人能力及精力）——<a id="more"></a></p>
+<ul>
+<li><p>官方系统自身的翻墙的实现（VPN或SS）</p>
+</li>
+<li><p>安装更多自己需要的软件（如坚果云客户端等等）</p>
+</li>
+<li><p>连接摄像头等（未购买更多配件）</p>
+</li>
+</ul>
+<p>当然，还会有更多折腾，但还是要有度的，否则，这也就不是适合我的树莓派了。</p>
+<p><img src="http://image.cpxxpc.com/pi.jpg" alt=""></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;其实，从2.13至今，已经与树莓派3B亲密接触了半个月时间。这期间，主要折腾如下——&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;依托官方系统（Raspbian）进行了一些常规优化，使其可以行使一台“轻电脑”的职责（主要是围绕浏览器及文件管理器完成一些日常的休闲、娱乐类闲事）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;通过lnmp构建了网络环境并建立了测试站，通过花生壳实现了内网穿透（ngrok.cc亦可）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;其他如airplay音乐投射、bt下载等&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;其他几个系统，包括两个机顶盒系统等（其中win10定制版太专业、centos未成功），均为浅尝辄止&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;尚且未实现的用途（受限于个人能力及精力）——
+    
+    </summary>
+    
+      <category term="杂录" scheme="http://hexo1.cpxxpc.com/categories/%E6%9D%82%E5%BD%95/"/>
+    
+      <category term="体验" scheme="http://hexo1.cpxxpc.com/categories/%E6%9D%82%E5%BD%95/%E4%BD%93%E9%AA%8C/"/>
+    
+    
+      <category term="2017" scheme="http://hexo1.cpxxpc.com/tags/2017/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>演讲撷语</title>
+    <link href="http://hexo1.cpxxpc.com/2017/02/28/A1/"/>
+    <id>http://hexo1.cpxxpc.com/2017/02/28/A1/</id>
+    <published>2017-02-27T16:00:00.000Z</published>
+    <updated>2017-02-28T06:35:20.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>昨日，全天候听了一次妙趣横生、引人思考的专家讲座（演讲），抛除业务属性外，其对自我心态、生活态度等方面也是很值得借鉴/思考的，以下撷取少量记录下来的语丝片段（附记录时间），以便回顾——</p>
+<ul>
+<li><p>有心无痕 | 17-02-27 09:22:54</p>
+</li>
+<li><p>尽孝，行善 | 17-02-27 09:28:40</p>
+</li>
+<li><p>造船等水 | 17-02-27 09:29:27</p>
+</li>
+<li><p>有为才有位 | 17-02-27 09:31:46</p>
+</li>
+<li><p>选我所爱，爱我所选 | 17-02-27 09:48:05</p>
+</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;昨日，全天候听了一次妙趣横生、引人思考的专家讲座（演讲），抛除业务属性外，其对自我心态、生活态度等方面也是很值得借鉴/思考的，以下撷取少量记录下来的语丝片段（附记录时间），以便回顾——&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;有心无痕 | 17-02-27 09:22:54&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="随笔" scheme="http://hexo1.cpxxpc.com/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="2017" scheme="http://hexo1.cpxxpc.com/tags/2017/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>转站“主机公园”</title>
+    <link href="http://hexo1.cpxxpc.com/2017/02/05/D1/"/>
+    <id>http://hexo1.cpxxpc.com/2017/02/05/D1/</id>
+    <published>2017-02-04T16:00:00.000Z</published>
+    <updated>2017-02-27T09:57:37.842Z</updated>
+    
+    <content type="html"><![CDATA[<p>为了追求更快、更稳定的访问效果，今晚将各自建站点重新布局到了测试购入的主机公园<a href="https://www.hostpark.cn/us_sj_vps.html" target="_blank" rel="external">CN2-512洛杉矶VPS</a>中，还不错，仅一个小时左右就完成了全面布局，现在各站点均已运行在此主机上了，这速度，可比Vultr的日本主机快多了（上次布局时仅上传一个不到60MB的压缩包就用了一个半小时，那速度，真叫一个酸爽），这也更坚定了我立足此地的决心。</p>
+<p>如果不出意外，我的Vultr主机历程即将画上一个句号；主机公园，可别让我失望哦~~</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;为了追求更快、更稳定的访问效果，今晚将各自建站点重新布局到了测试购入的主机公园&lt;a href=&quot;https://www.hostpark.cn/us_sj_vps.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;CN2-512洛杉矶VPS&lt;/a&gt;中
+    
+    </summary>
+    
+      <category term="杂录" scheme="http://hexo1.cpxxpc.com/categories/%E6%9D%82%E5%BD%95/"/>
+    
+      <category term="站务" scheme="http://hexo1.cpxxpc.com/categories/%E6%9D%82%E5%BD%95/%E7%AB%99%E5%8A%A1/"/>
+    
+    
+      <category term="2017" scheme="http://hexo1.cpxxpc.com/tags/2017/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>停止折腾，回归宁静</title>
+    <link href="http://hexo1.cpxxpc.com/2017/02/01/D1/"/>
+    <id>http://hexo1.cpxxpc.com/2017/02/01/D1/</id>
+    <published>2017-01-31T16:00:00.000Z</published>
+    <updated>2017-02-27T09:57:37.632Z</updated>
+    
+    <content type="html"><![CDATA[<p>春节前至今的近一周时间内，我充分的徜徉在网络建站这条路途上——鼓弄VPS（包括Bandwagon和Vultr）、管理面板（大约三种）、Ghost博客程序等，弄得我日日久坐对绿屏（ssh客户端背景，aya谓之）、夜夜晚睡对愁眠（尤其Ghost程序着实难缠），自己很清楚在目前境况下，这样疯狂的举动其实是很不适合的（虽能屏蔽一时感受，转移一时注意，但很明显，这些替代品并非长久之计）。</p>
+<p>正好，今日已基本折腾出了个稳定的布局（Vultr主机+BT面板+Ghost@Docker容器+自建翻墙SS），决定见好就收，停止各种折腾，回归宁静本源，按照“<strong>现今三要务：调整心态，改变习惯，适量运动</strong>”来逐步调整自己的生活，寻求一种更加健康平和的生活方式。<a id="more"></a></p>
+<p>这算是农历丁酉年的第一文，也算是Ghost-hello子博客的开篇文（没办法，折腾的重要妥协成果之一），谨此标记。</p>
+<p>PS：已测试将主站迁往Vultr（Hexo构建，FTPSync方式发布）。（170202补注）</p>
+<p>PS：各站已迁入主机公园VPS主机。（170205补注）</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;春节前至今的近一周时间内，我充分的徜徉在网络建站这条路途上——鼓弄VPS（包括Bandwagon和Vultr）、管理面板（大约三种）、Ghost博客程序等，弄得我日日久坐对绿屏（ssh客户端背景，aya谓之）、夜夜晚睡对愁眠（尤其Ghost程序着实难缠），自己很清楚在目前境况下，这样疯狂的举动其实是很不适合的（虽能屏蔽一时感受，转移一时注意，但很明显，这些替代品并非长久之计）。&lt;/p&gt;
+&lt;p&gt;正好，今日已基本折腾出了个稳定的布局（Vultr主机+BT面板+Ghost@Docker容器+自建翻墙SS），决定见好就收，停止各种折腾，回归宁静本源，按照“&lt;strong&gt;现今三要务：调整心态，改变习惯，适量运动&lt;/strong&gt;”来逐步调整自己的生活，寻求一种更加健康平和的生活方式。
+    
+    </summary>
+    
+      <category term="杂录" scheme="http://hexo1.cpxxpc.com/categories/%E6%9D%82%E5%BD%95/"/>
+    
+      <category term="站务" scheme="http://hexo1.cpxxpc.com/categories/%E6%9D%82%E5%BD%95/%E7%AB%99%E5%8A%A1/"/>
+    
+    
+      <category term="2017" scheme="http://hexo1.cpxxpc.com/tags/2017/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>暂别NAS01</title>
+    <link href="http://hexo1.cpxxpc.com/2017/01/23/D1/"/>
+    <id>http://hexo1.cpxxpc.com/2017/01/23/D1/</id>
+    <published>2017-01-22T16:00:00.000Z</published>
+    <updated>2017-02-27T09:57:37.020Z</updated>
+    
+    <content type="html"><![CDATA[<p>一向倚重的群晖网络存储器（代号NAS01）近日频繁出现“系统分区已损坏，请尽快更换硬盘”之类的提示，经网络查询估计是其内置的硬盘已不知何故受到了严重的损害，预期较短时间内就会导致NAS整体罢工，因此未雨绸缪，紧急确定了如下的应急方案——</p>
+<ul>
+<li>将NAS01中存储的重要数据尽快备份至本地，并将其配置信息导出，将其重要配置页面截图备用；</li>
+<li>将原通过NAS01同步至各电脑的文档、图片、录制、博文等文件夹改为通过坚果云同步，将原通过NAS01存储的备份、软件等文件夹转入坚果云存储；</li>
+<li>将原依托NAS01备份并同步的手机照片、录像改为通过Dropbox备份与同步（需VPN连接）；</li>
+<li>将原运行于NAS01的“网行志”纪念镜像改入百家云运行，访问地址不变，wp2镜像及hexo镜像2本地备份后取消网络访问；<a id="more"></a></li>
+<li>原存储于NAS01的照片、录像、录音、有声、音乐诸文件夹已在移动硬盘及Mac04有备份存储，视频在Airport01已有备份存储，不再另行备份，今后正常同步更新即可，至于远程共享访问暂时停止（考虑合适条件下可局部入百度网盘来续补网络访问）；</li>
+<li>原依附于NAS01运行的Cam01网络摄像头暂且通过自带客户端及网页版来进行访问，原有已备份至百度网盘的录像存底择机备份至本地存储。</li>
+</ul>
+<p>虽有不舍，但鉴于目前精力及资金等诸方面限制（也包括对NAS已略有动摇的信心），只能采取以上替代方案后暂别NAS01（已关机原封存留）。待各方面稳定后再腾出精力适当采取修补措施，争取让NAS01在不远的将来恢复正常运行，让它重新发挥出应有的“威力”（当然，更希望这所谓的故障其实只是NAS系统的误判而已）。</p>
+<p>PS：“网行志”纪念镜像已改入自购VPS运行。（170201补注）</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;一向倚重的群晖网络存储器（代号NAS01）近日频繁出现“系统分区已损坏，请尽快更换硬盘”之类的提示，经网络查询估计是其内置的硬盘已不知何故受到了严重的损害，预期较短时间内就会导致NAS整体罢工，因此未雨绸缪，紧急确定了如下的应急方案——&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;将NAS01中存储的重要数据尽快备份至本地，并将其配置信息导出，将其重要配置页面截图备用；&lt;/li&gt;
+&lt;li&gt;将原通过NAS01同步至各电脑的文档、图片、录制、博文等文件夹改为通过坚果云同步，将原通过NAS01存储的备份、软件等文件夹转入坚果云存储；&lt;/li&gt;
+&lt;li&gt;将原依托NAS01备份并同步的手机照片、录像改为通过Dropbox备份与同步（需VPN连接）；&lt;/li&gt;
+&lt;li&gt;将原运行于NAS01的“网行志”纪念镜像改入百家云运行，访问地址不变，wp2镜像及hexo镜像2本地备份后取消网络访问；
+    
+    </summary>
+    
+      <category term="杂录" scheme="http://hexo1.cpxxpc.com/categories/%E6%9D%82%E5%BD%95/"/>
+    
+      <category term="站务" scheme="http://hexo1.cpxxpc.com/categories/%E6%9D%82%E5%BD%95/%E7%AB%99%E5%8A%A1/"/>
+    
+    
+      <category term="2017" scheme="http://hexo1.cpxxpc.com/tags/2017/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>摘录/笔记/发布全流程（第四版）</title>
+    <link href="http://hexo1.cpxxpc.com/2017/01/21/D1/"/>
+    <id>http://hexo1.cpxxpc.com/2017/01/21/D1/</id>
+    <published>2017-01-20T16:00:00.000Z</published>
+    <updated>2017-02-27T09:57:37.026Z</updated>
+    
+    <content type="html"><![CDATA[<p>此前<a href="http://cpxxpc.com/2016/07/06/D1" target="_blank" rel="external">第一版</a>、<a href="http://cpxxpc.com/2016/08/29/D1" target="_blank" rel="external">第二版</a>、<a href="http://cpxxpc.com/2016/12/02/D1/" target="_blank" rel="external">第三版</a>，以下为全新调整后的第四版。</p>
+<p>PS：此版通过思维导图工具MindNode编制并导出，导图原版可<a href="https://my.mindnode.com/A6FeqhT6RugmGySsR9okYCYsMsZKsojx5J7TWSg4#59.5,47.0,2" target="_blank" rel="external">点此</a>浏览。<a id="more"></a></p>
+<h4 id="A-摘录类"><a href="#A-摘录类" class="headerlink" title="A 摘录类"></a>A 摘录类</h4><h5 id="a-全文摘录"><a href="#a-全文摘录" class="headerlink" title="a 全文摘录"></a>a 全文摘录</h5><ul>
+<li>移动端<ul>
+<li><strong>Instapaper</strong>丨app+插件</li>
+<li>Safari阅读列表</li>
+<li>微信收藏丨主要通过iPhone04操作</li>
+</ul>
+</li>
+<li>Mac端<ul>
+<li><strong>Instapaper</strong>丨网页+插件</li>
+<li>Safari阅读列表</li>
+</ul>
+</li>
+<li>PC端<ul>
+<li><strong>Instapaper</strong>丨网页+插件</li>
+</ul>
+</li>
+</ul>
+<h5 id="b-片段摘录"><a href="#b-片段摘录" class="headerlink" title="b 片段摘录"></a>b 片段摘录</h5><ul>
+<li>移动端<ul>
+<li><strong>Bear</strong>丨语丝、留存通过Workflow预置工作流添加；另有书摘、教程直接添加</li>
+</ul>
+</li>
+<li>Mac端<ul>
+<li><strong>Bear</strong>丨插件采集→整理</li>
+</ul>
+</li>
+<li>PC端<ul>
+<li>Simplenote丨插件采集→同步至移动或Mac端→导入Bear整理</li>
+</ul>
+</li>
+</ul>
+<h5 id="c-图片摘录"><a href="#c-图片摘录" class="headerlink" title="c 图片摘录"></a>c 图片摘录</h5><ul>
+<li>移动端丨保存至相册→通过FileExplorer上传至坚果云图丝文件夹(手动删除本地图片)→坚果云同步至电脑端</li>
+<li>Mac端+PC端丨保存至本地图丝文件夹→通过坚果云完成同步</li>
+</ul>
+<h4 id="B-笔记类"><a href="#B-笔记类" class="headerlink" title="B 笔记类"></a>B 笔记类</h4><ul>
+<li>移动端<ul>
+<li><strong>Bear</strong>丨自语、要录通过Workflow预置工作流添加</li>
+<li><strong>DayOne</strong>丨包括日记+随拍；主要通过iPhone04操作</li>
+</ul>
+</li>
+<li>Mac端<ul>
+<li><strong>Bear</strong></li>
+<li>DayOne丨批量导出备份</li>
+<li>文档类丨通过坚果云同步与备份</li>
+</ul>
+</li>
+<li>PC端<ul>
+<li>Simplenote丨同步至移动或Mac端后汇总整理</li>
+<li>文档类丨通过坚果云同步与备份</li>
+</ul>
+</li>
+</ul>
+<h4 id="C-发布类"><a href="#C-发布类" class="headerlink" title="C 发布类"></a>C 发布类</h4><h5 id="a-博客发布"><a href="#a-博客发布" class="headerlink" title="a 博客发布"></a>a 博客发布</h5><ul>
+<li>移动端<ul>
+<li><strong>Bear</strong>丨书写后同步至Mac端或由Simplenote转存同步至PC端→MarkEditor格式化并通过坚果云同步→Mac05命令行发布（PS：侧重文字类）</li>
+</ul>
+</li>
+<li>Mac端<ul>
+<li><strong>Bear</strong>丨书写后通过MarkEditor格式化并通过坚果云同步（配图由七牛外链并备份至坚果云）→Mac05命令行发布</li>
+<li><strong>MarkEditor</strong>丨书写后通过坚果云同步（配图由七牛外链并备份至坚果云）→Mac05命令行发布</li>
+</ul>
+</li>
+<li>PC端<ul>
+<li><strong>MarkEditor</strong>丨书写后通过坚果云同步（配图由七牛外链并备份至坚果云）→Mac05命令行发布</li>
+</ul>
+</li>
+</ul>
+<h5 id="b-微博发布"><a href="#b-微博发布" class="headerlink" title="b 微博发布"></a>b 微博发布</h5><ul>
+<li>移动端丨通过Workflow预置工作流（文字类）或客户端（图文类）发布至Twitter→通过IFTTT同步至Weibo</li>
+<li>Mac端丨通过侧边快捷栏（文字类）或网页（图文类）发布至Twitter→通过IFTTT同步至Weibo</li>
+<li>PC端丨通过网页发布至Twitter→通过IFTTT同步至Weibo</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;此前&lt;a href=&quot;http://cpxxpc.com/2016/07/06/D1&quot;&gt;第一版&lt;/a&gt;、&lt;a href=&quot;http://cpxxpc.com/2016/08/29/D1&quot;&gt;第二版&lt;/a&gt;、&lt;a href=&quot;http://cpxxpc.com/2016/12/02/D1/&quot;&gt;第三版&lt;/a&gt;，以下为全新调整后的第四版。&lt;/p&gt;
+&lt;p&gt;PS：此版通过思维导图工具MindNode编制并导出，导图原版可&lt;a href=&quot;https://my.mindnode.com/A6FeqhT6RugmGySsR9okYCYsMsZKsojx5J7TWSg4#59.5,47.0,2&quot;&gt;点此&lt;/a&gt;浏览。
+    
+    </summary>
+    
+      <category term="杂录" scheme="http://hexo1.cpxxpc.com/categories/%E6%9D%82%E5%BD%95/"/>
+    
+      <category term="站务" scheme="http://hexo1.cpxxpc.com/categories/%E6%9D%82%E5%BD%95/%E7%AB%99%E5%8A%A1/"/>
+    
+    
+      <category term="2017" scheme="http://hexo1.cpxxpc.com/tags/2017/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>简单的小满足</title>
+    <link href="http://hexo1.cpxxpc.com/2017/01/21/A1/"/>
+    <id>http://hexo1.cpxxpc.com/2017/01/21/A1/</id>
+    <published>2017-01-20T16:00:00.000Z</published>
+    <updated>2017-02-27T09:57:36.409Z</updated>
+    
+    <content type="html"><![CDATA[<p>简单的小满足，其实是那么的美好。无论是装修前期忙碌中的点滴“斩获”，还是电脑日常使用中的微小“新鲜”；无论是与孩子间欢笑的一刹，还是与亲人间温馨的一瞬…这点点滴滴的温暖与足够，其实正是一种小确幸，一种触手可及的美好。</p>
+<p>发现即拥有，能享受这简单的小满足，生活在这种小确幸式的幸福中，足矣！</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;简单的小满足，其实是那么的美好。无论是装修前期忙碌中的点滴“斩获”，还是电脑日常使用中的微小“新鲜”；无论是与孩子间欢笑的一刹，还是与亲人间温馨的一瞬…这点点滴滴的温暖与足够，其实正是一种小确幸，一种触手可及的美好。&lt;/p&gt;
+&lt;p&gt;发现即拥有，能享受这简单的小满足，生活在这
+    
+    </summary>
+    
+      <category term="随笔" scheme="http://hexo1.cpxxpc.com/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="2017" scheme="http://hexo1.cpxxpc.com/tags/2017/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Bear新布局</title>
+    <link href="http://hexo1.cpxxpc.com/2017/01/20/D1/"/>
+    <id>http://hexo1.cpxxpc.com/2017/01/20/D1/</id>
+    <published>2017-01-19T16:00:00.000Z</published>
+    <updated>2017-02-27T09:57:36.403Z</updated>
+    
+    <content type="html"><![CDATA[<p>今日起，对笔记类新秀Bear进行了较为全面的体验与测试，鉴于其舒适便捷的使用体验，已初步拟定将个人摘录/笔记/发布中的以下方面逐步调入Bear负责范畴，希望其可以成为包罗诸功能的“军刀级”工具。</p>
+<ul>
+<li>Simplenote的<em>博文书写</em>（仅Win平台保留）、<em>片段摘录</em>（指常用教程）</li>
+<li>印象笔记的<em>片段摘录</em>（包括语丝、备留、书摘三方面）</li>
+<li>系统备忘录的<em>常用备忘</em>、<em>自语录</em></li>
+<li>系统提醒事项的<em>近期待办事项</em></li>
+</ul>
+<p>如此，即可大幅化繁为简、化杂为统，则每月10元不枉费也～</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;今日起，对笔记类新秀Bear进行了较为全面的体验与测试，鉴于其舒适便捷的使用体验，已初步拟定将个人摘录/笔记/发布中的以下方面逐步调入Bear负责范畴，希望其可以成为包罗诸功能的“军刀级”工具。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Simplenote的&lt;em&gt;博文书写&lt;/em&gt;（仅
+    
+    </summary>
+    
+      <category term="杂录" scheme="http://hexo1.cpxxpc.com/categories/%E6%9D%82%E5%BD%95/"/>
+    
+    
+      <category term="2017" scheme="http://hexo1.cpxxpc.com/tags/2017/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>心语片撷（170118）</title>
+    <link href="http://hexo1.cpxxpc.com/2017/01/18/A1/"/>
+    <id>http://hexo1.cpxxpc.com/2017/01/18/A1/</id>
+    <published>2017-01-17T16:00:00.000Z</published>
+    <updated>2017-02-27T09:57:35.800Z</updated>
+    
+    <content type="html"><![CDATA[<p>别再纠结于那些微小的“伤害”事件了，别再去刻意感受与对比那些细小的变化了！！真的，很多时候，越是在乎、越是关注，就越是感觉到身体细微的不对劲、不协调、不舒适，而注意力一旦有所转移，这些不正常的感觉就会有所减退，甚至轻微许多。所以，适当让自己的身体与神经变粗些、变钝些，并不是什么坏事，尤其是针对目前的我来说。 </p>
+<p>别再无谓的纠结与感受了，踏踏实实的从容生活下去吧！！</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;别再纠结于那些微小的“伤害”事件了，别再去刻意感受与对比那些细小的变化了！！真的，很多时候，越是在乎、越是关注，就越是感觉到身体细微的不对劲、不协调、不舒适，而注意力一旦有所转移，这些不正常的感觉就会有所减退，甚至轻微许多。所以，适当让自己的身体与神经变粗些、变钝些，并不是
+    
+    </summary>
+    
+      <category term="随笔" scheme="http://hexo1.cpxxpc.com/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+      <category term="自语" scheme="http://hexo1.cpxxpc.com/categories/%E9%9A%8F%E7%AC%94/%E8%87%AA%E8%AF%AD/"/>
+    
+    
+      <category term="2017" scheme="http://hexo1.cpxxpc.com/tags/2017/"/>
+    
+  </entry>
+  
+  <entry>
     <title>个人Hexo站点汇总</title>
     <link href="http://hexo1.cpxxpc.com/2017/01/12/D1/"/>
     <id>http://hexo1.cpxxpc.com/2017/01/12/D1/</id>
     <published>2017-01-11T16:00:00.000Z</published>
-    <updated>2017-01-13T14:21:31.000Z</updated>
+    <updated>2017-02-27T09:57:35.783Z</updated>
     
     <content type="html"><![CDATA[<p>为便于识别与管理，简单汇总下基于Hexo的各同步及测试站点（依托Typora强大而便捷的表格功能加以制作）——</p>
 <table>
@@ -36,20 +603,20 @@
 <tr>
 <td style="text-align:center">主站</td>
 <td style="text-align:center">Mac05</td>
-<td style="text-align:center">Coding</td>
+<td style="text-align:center">VPS</td>
 <td style="text-align:center"><a href="http://cpxxpc.com" target="_blank" rel="external">cpxxpc.com</a></td>
 </tr>
 <tr>
 <td style="text-align:center">镜像站1</td>
 <td style="text-align:center">Mac05</td>
-<td style="text-align:center">Github</td>
+<td style="text-align:center">Coding</td>
 <td style="text-align:center"><a href="http://hexo.cpxxpc.com" target="_blank" rel="external">hexo.cpxxpc.com</a></td>
 </tr>
 <tr>
-<td style="text-align:center">镜像站2</td>
-<td style="text-align:center">Mac05</td>
-<td style="text-align:center">NAS01</td>
-<td style="text-align:center"><a href="http://hexo0.cpxxpc.com" target="_blank" rel="external">hexo0.cpxxpc.com</a></td>
+<td style="text-align:center"><del>镜像站2</del></td>
+<td style="text-align:center"><del>Mac05</del></td>
+<td style="text-align:center"><del>Github</del></td>
+<td style="text-align:center"><del><a href="http://hexo0.cpxxpc.com" target="_blank" rel="external">hexo0.cpxxpc.com</a></del></td>
 </tr>
 <tr>
 <td style="text-align:center">测试站1</td>
@@ -88,6 +655,36 @@
   </entry>
   
   <entry>
+    <title>“平安是幸，健康是福”</title>
+    <link href="http://hexo1.cpxxpc.com/2017/01/11/A2/"/>
+    <id>http://hexo1.cpxxpc.com/2017/01/11/A2/</id>
+    <published>2017-01-10T16:00:00.000Z</published>
+    <updated>2017-02-27T09:57:35.175Z</updated>
+    
+    <content type="html"><![CDATA[<p>来源：原创</p>
+<p>缘起：针对近期家人身体健康方面经历，悟出此理。</p>
+<p>延展：从这个自定义角度上看，“幸”与“福”的指向还是有所不同的，基础层级上也是有所差异的；对自我来说，“健康”虽然尚需努力，但“平安”却更是弥足珍惜的。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;来源：原创&lt;/p&gt;
+&lt;p&gt;缘起：针对近期家人身体健康方面经历，悟出此理。&lt;/p&gt;
+&lt;p&gt;延展：从这个自定义角度上看，“幸”与“福”的指向还是有所不同的，基础层级上也是有所差异的；对自我来说，“健康”虽然尚需努力，但“平安”却更是弥足珍惜的。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="随笔" scheme="http://hexo1.cpxxpc.com/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+      <category term="自语" scheme="http://hexo1.cpxxpc.com/categories/%E9%9A%8F%E7%AC%94/%E8%87%AA%E8%AF%AD/"/>
+    
+    
+      <category term="2017" scheme="http://hexo1.cpxxpc.com/tags/2017/"/>
+    
+  </entry>
+  
+  <entry>
     <title>写博三阶段</title>
     <link href="http://hexo1.cpxxpc.com/2017/01/11/A1/"/>
     <id>http://hexo1.cpxxpc.com/2017/01/11/A1/</id>
@@ -117,41 +714,11 @@
   </entry>
   
   <entry>
-    <title>“平安是幸，健康是福”</title>
-    <link href="http://hexo1.cpxxpc.com/2017/01/11/A2/"/>
-    <id>http://hexo1.cpxxpc.com/2017/01/11/A2/</id>
-    <published>2017-01-10T16:00:00.000Z</published>
-    <updated>2017-01-12T05:07:35.553Z</updated>
-    
-    <content type="html"><![CDATA[<p>来源：原创</p>
-<p>缘起：针对近期家人身体健康方面经历，悟出此理。</p>
-<p>延展：从这个自定义角度上看，“幸”与“福”的指向还是有所不同的，基础层级上也是有所差异的；对自我来说，“健康”虽然尚需努力，但“平安”却更是弥足珍惜的。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;来源：原创&lt;/p&gt;
-&lt;p&gt;缘起：针对近期家人身体健康方面经历，悟出此理。&lt;/p&gt;
-&lt;p&gt;延展：从这个自定义角度上看，“幸”与“福”的指向还是有所不同的，基础层级上也是有所差异的；对自我来说，“健康”虽然尚需努力，但“平安”却更是弥足珍惜的。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="随笔" scheme="http://hexo1.cpxxpc.com/categories/%E9%9A%8F%E7%AC%94/"/>
-    
-      <category term="语丝" scheme="http://hexo1.cpxxpc.com/categories/%E9%9A%8F%E7%AC%94/%E8%AF%AD%E4%B8%9D/"/>
-    
-    
-      <category term="2017" scheme="http://hexo1.cpxxpc.com/tags/2017/"/>
-    
-  </entry>
-  
-  <entry>
     <title>写博十年感言</title>
     <link href="http://hexo1.cpxxpc.com/2017/01/10/D1/"/>
     <id>http://hexo1.cpxxpc.com/2017/01/10/D1/</id>
     <published>2017-01-09T16:00:00.000Z</published>
-    <updated>2017-01-11T02:11:38.568Z</updated>
+    <updated>2017-02-27T09:57:34.555Z</updated>
     
     <content type="html"><![CDATA[<p>昨天，在完善hexo站的“建站时间”这一细节时，才发觉2007-2017，我的写博历程已走过了近十个年头。从“网行志”开始（2007.7~2010.9，原域名webgol.cn、webgol.org，现镜像地址webgol.cpxxpc.com，已停止更新，部分随笔类日志归入本博客），经Qzone等个人空间（基本均已不再做日常更新，部分日志归入本博客），到早期的个人博客“麦收客”（即“史前纪”），直至更新至今的本博客（2012.4建站，定位为个人生活博客兼个人主页，具体变迁历程见下方列表），近十年的时间，陆陆续续写了近500篇各类日志（早期侧重于网络技术类，后期侧重于生活随笔类）。虽品相参差不齐且少有优品，但好在始终坚持原创，每一笔均来自于个人尝试与体悟；早期坚持规律的高密度更新，后期则随性而为、随心而写，其实跳脱出来看，后者才是个人博客的应有姿态，才是符合自我心性的自然之笔，才是可持续发展的长久之计啊！</p>
 <p>好了，更多的感悟就不多说了，以下附上个人生活博客阶段（即本博客）的变迁历程——<a id="more"></a></p>
@@ -169,9 +736,9 @@
 <li>第十纪：<a href="http://cpxxpc.farbox.com" target="_blank" rel="external">@Farbox</a> （2014.11.29~2015.12.11，一年多；绑定域名blog.cpxxpc.com；随总页迁回farbox，名为“CpxxpC的博客”）</li>
 <li>第十一纪：<a href="http://cpxxpc.lofter.com/" target="_blank" rel="external">@Lofter</a> （2015.12.11~2016.5.20，近半年；绑定域名cpxxpc.com；腿伤其间，融合个人主页+博客功能迁回lofter，取消命名）</li>
 <li>第十二纪：<a href="http://cpxxpc.farbox.com/" target="_blank" rel="external">@Farbox</a>（2016.5.20~6.9，不足一月；绑定域名blog.cpxxpc.com；再随总页迁回farbox，仍名为“CpxxpC的博客”）</li>
-<li>第十三纪：<del>@独立空间/Wordpress</del> （2016.6.9~12.3；近六个月；绑定域名cpxxpc.com；7.18恢复曾用名“麦收客”；12.3留存版迁至NAS01，现已停止更新，仅留存位于NAS01的<a href="http://wp2.cpxxpc.com" target="_blank" rel="external">镜像</a>）</li>
+<li>第十三纪：<del>@独立空间/Wordpress</del> （2016.6.9~12.3；近六个月；绑定域名cpxxpc.com；7.18恢复曾用名“麦收客”；12.3留存版迁至NAS01，现已停止更新，<del>仅留存位于NAS01的<a href="http://wp2.cpxxpc.com" target="_blank" rel="external">镜像</a></del>）</li>
 <li>第十四纪：<del>@Github/Jekyll</del> (2016.12.3~2017.1.8，一个多月；绑定域名cpxxpc.com；取消命名；现已停止更新，留存地址可<a href="http://jekyll.cpxxpc.com" target="_blank" rel="external">点此</a>进入）</li>
-<li>第十五纪：<a href="http://cpxxpc.com/" target="_blank" rel="external">@Coding(Github)/Hexo</a> （2017.1.8~今；绑定域名cpxxpc.com；仍取消命名）</li>
+<li>第十五纪：<a href="http://cpxxpc.com/" target="_blank" rel="external">@VPS(Github/Coding)/Hexo</a> （2017.1.8~今；绑定域名cpxxpc.com；仍取消命名）</li>
 </ul>
 ]]></content>
     
@@ -196,7 +763,7 @@
     <link href="http://hexo1.cpxxpc.com/2017/01/08/D1/"/>
     <id>http://hexo1.cpxxpc.com/2017/01/08/D1/</id>
     <published>2017-01-07T16:00:00.000Z</published>
-    <updated>2017-01-12T05:33:26.861Z</updated>
+    <updated>2017-02-27T09:57:33.943Z</updated>
     
     <content type="html"><![CDATA[<p>近日，为了排解腰腿不适的身心痛楚，利用单位及家中的空闲时间，从零开始摸索着鼓弄了一番Hexo这个比较极客的东西。还好，时间并未完全浪费，目前已初步掌握了用其建博的流程与要领，并且已构建出了一套以Mac05为终端的更新与发布平台（以Mac05为本地端，Github为网络端）。经过几天的测试与调整，已决定将它“扶正”，取代原Jekyll版的地位。</p>
 <p>作出这样的决定，并非一时冲动，而是基于以下几点的考虑—<a id="more"></a></p>
@@ -211,8 +778,9 @@
 <p>由于仍然基于Git这方“热土”，仅仅架构内核与构建方式发生了变化，所以本次改动算不上迭代式的大变化；原Jekyll站已暂停更新，以 jekyll.cpxxpc.com 地址作以留存。</p>
 <p>本文作为2017开篇日志，同时也是新模式下发布的第一文，顺便纪念下！</p>
 <p>PS：为追求更稳定的访问效果，也为了尝试下通过Git同步发布至不同服务商，现已引入Coding与Github双轨发布，并已暂定以Coding为主（绑定主域名），Github为辅（绑定辅助域名 hexo.cpxxpc.com），特此标记。（170109补注）</p>
-<p>PS：因当前Github局部访问不正常，影响正常发布，决定暂停Github镜像站的同步更新；同时，尝试通过FTPSync方式新建位于NAS01的镜像站（绑定辅助域名 hexo0.cpxxpc.com），与Coding主站同步更新。（170110补注）</p>
+<p>PS：因当前Github局部访问不正常，影响正常发布，决定暂停Github镜像站的同步更新；<del>同时，尝试通过FTPSync方式新建位于NAS01的镜像站（绑定辅助域名 hexo0.cpxxpc.com），与Coding主站同步更新</del>。（170110补注）</p>
 <p>PS：貌似Github已可正常访问，暂且恢复其同步镜像更新。（170111补注）</p>
+<p>PS：已尝试将主站迁至Vultr.VPS中（FTPSync方式发布），其他作为镜像站。（170202补注）</p>
 ]]></content>
     
     <summary type="html">
@@ -289,409 +857,6 @@
     </summary>
     
       <category term="生活" scheme="http://hexo1.cpxxpc.com/categories/%E7%94%9F%E6%B4%BB/"/>
-    
-    
-      <category term="2016" scheme="http://hexo1.cpxxpc.com/tags/2016/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>主页/博客区隔调整</title>
-    <link href="http://hexo1.cpxxpc.com/2016/12/28/D1/"/>
-    <id>http://hexo1.cpxxpc.com/2016/12/28/D1/</id>
-    <published>2016-12-27T16:00:00.000Z</published>
-    <updated>2017-01-11T00:39:53.950Z</updated>
-    
-    <content type="html"><![CDATA[<p>近两日，对此博客/主页进行了一点调整，主要是使之在各种分别率的设备上均能够自动隐藏博客部分，以对主页（默认显示）与博客（默认隐藏）加以明确区隔。</p>
-<p>此过程中，对主页部分的布局进行了微调，以体现简约、个性、导航的特点；至于博客部分，本着低调、自我、闲适的需求进行了退隐化处理。</p>
-<p>低调有情致，真我空间也~~</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;近两日，对此博客/主页进行了一点调整，主要是使之在各种分别率的设备上均能够自动隐藏博客部分，以对主页（默认显示）与博客（默认隐藏）加以明确区隔。&lt;/p&gt;
-&lt;p&gt;此过程中，对主页部分的布局进行了微调，以体现简约、个性、导航的特点；至于博客部分，本着低调、自我、闲适的需求进行了
-    
-    </summary>
-    
-      <category term="杂录" scheme="http://hexo1.cpxxpc.com/categories/%E6%9D%82%E5%BD%95/"/>
-    
-      <category term="站务" scheme="http://hexo1.cpxxpc.com/categories/%E6%9D%82%E5%BD%95/%E7%AB%99%E5%8A%A1/"/>
-    
-    
-      <category term="2016" scheme="http://hexo1.cpxxpc.com/tags/2016/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>近况小语（161228）</title>
-    <link href="http://hexo1.cpxxpc.com/2016/12/28/A1/"/>
-    <id>http://hexo1.cpxxpc.com/2016/12/28/A1/</id>
-    <published>2016-12-27T16:00:00.000Z</published>
-    <updated>2017-01-11T00:39:47.792Z</updated>
-    
-    <content type="html"><![CDATA[<p>房定就好，后续的一步步来；</p>
-<p>工作顺心就好，至于定级、升职、分差等不必多思；</p>
-<p>手环用上就好，能监督多动些、早起些就不虚此物；</p>
-<p>母健乃及全家健最重要，此真真是值得用心呵护、用情感悟的！！<a id="more"></a></p>
-<p><img src="http://image.cpxxpc.com/hehu.jpg" alt=""></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;房定就好，后续的一步步来；&lt;/p&gt;
-&lt;p&gt;工作顺心就好，至于定级、升职、分差等不必多思；&lt;/p&gt;
-&lt;p&gt;手环用上就好，能监督多动些、早起些就不虚此物；&lt;/p&gt;
-&lt;p&gt;母健乃及全家健最重要，此真真是值得用心呵护、用情感悟的！！
-    
-    </summary>
-    
-      <category term="随笔" scheme="http://hexo1.cpxxpc.com/categories/%E9%9A%8F%E7%AC%94/"/>
-    
-    
-      <category term="2016" scheme="http://hexo1.cpxxpc.com/tags/2016/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>定房小语</title>
-    <link href="http://hexo1.cpxxpc.com/2016/12/16/A1/"/>
-    <id>http://hexo1.cpxxpc.com/2016/12/16/A1/</id>
-    <published>2016-12-15T16:00:00.000Z</published>
-    <updated>2017-01-11T00:39:41.470Z</updated>
-    
-    <content type="html"><![CDATA[<p>半月选房终定房，选定新家心安定。</p>
-<p>换房为使生更优，不为火来不为它。</p>
-<p>豁达心胸当自省，天高云淡莫自扰。</p>
-<p>定房小语闲一首，关照心境勿迷失。<a id="more"></a></p>
-<p><img src="http://image.cpxxpc.com/dingfang.jpg" alt=""></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;半月选房终定房，选定新家心安定。&lt;/p&gt;
-&lt;p&gt;换房为使生更优，不为火来不为它。&lt;/p&gt;
-&lt;p&gt;豁达心胸当自省，天高云淡莫自扰。&lt;/p&gt;
-&lt;p&gt;定房小语闲一首，关照心境勿迷失。
-    
-    </summary>
-    
-      <category term="随笔" scheme="http://hexo1.cpxxpc.com/categories/%E9%9A%8F%E7%AC%94/"/>
-    
-    
-      <category term="2016" scheme="http://hexo1.cpxxpc.com/tags/2016/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>趁着睡意未全失，尽快正常睡下吧！</title>
-    <link href="http://hexo1.cpxxpc.com/2016/12/08/A1/"/>
-    <id>http://hexo1.cpxxpc.com/2016/12/08/A1/</id>
-    <published>2016-12-07T16:00:00.000Z</published>
-    <updated>2017-01-11T00:39:27.951Z</updated>
-    
-    <content type="html"><![CDATA[<p>夜沉沉，眠后醒转再入眠，半梦半醒间，想要写下点什么，好暂时了却近几日迁入新站后尽快落下一笔的念头；不过，到底写点什么呢？</p>
-<p><strong>趁着睡意未全失，尽快正常睡下吧</strong>！这不，就写下这点吧！</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;夜沉沉，眠后醒转再入眠，半梦半醒间，想要写下点什么，好暂时了却近几日迁入新站后尽快落下一笔的念头；不过，到底写点什么呢？&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;趁着睡意未全失，尽快正常睡下吧&lt;/strong&gt;！这不，就写下这点吧！&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="随笔" scheme="http://hexo1.cpxxpc.com/categories/%E9%9A%8F%E7%AC%94/"/>
-    
-    
-      <category term="2016" scheme="http://hexo1.cpxxpc.com/tags/2016/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>暖心小语</title>
-    <link href="http://hexo1.cpxxpc.com/2016/12/08/A2/"/>
-    <id>http://hexo1.cpxxpc.com/2016/12/08/A2/</id>
-    <published>2016-12-07T16:00:00.000Z</published>
-    <updated>2017-01-11T00:39:33.926Z</updated>
-    
-    <content type="html"><![CDATA[<p>常怀感恩，</p>
-<p>不患得失；</p>
-<p>舒缓心境，</p>
-<p>坦向明晨。<a id="more"></a></p>
-<p><img src="http://image.cpxxpc.com/zuodian.jpg" alt=""></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;常怀感恩，&lt;/p&gt;
-&lt;p&gt;不患得失；&lt;/p&gt;
-&lt;p&gt;舒缓心境，&lt;/p&gt;
-&lt;p&gt;坦向明晨。
-    
-    </summary>
-    
-      <category term="随笔" scheme="http://hexo1.cpxxpc.com/categories/%E9%9A%8F%E7%AC%94/"/>
-    
-    
-      <category term="2016" scheme="http://hexo1.cpxxpc.com/tags/2016/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>完成两项收尾调整</title>
-    <link href="http://hexo1.cpxxpc.com/2016/12/05/D1/"/>
-    <id>http://hexo1.cpxxpc.com/2016/12/05/D1/</id>
-    <published>2016-12-04T16:00:00.000Z</published>
-    <updated>2017-01-11T05:59:09.009Z</updated>
-    
-    <content type="html"><![CDATA[<p>今日，对Github站做了收尾的两项调整与完善——</p>
-<p>其一，刚刚才了解到此架构并不支持IE内核浏览，因此对提示页面做了相应的“汉化”（并使用二维码作为补救手段）。虽然有一定缺失感，但对于我低调、朴实的立足点也不是什么问题，何况，现在采用纯IE内核浏览器的人也并不是那么多了，这方面的影响可以大致忽略掉的。</p>
-<p>其二，将原“其他”分类更名为“杂录”，并同时对自定义链接名加以完善，补充进代表分类的大写字母，再加上原有的序列号，以方便个人批量识别。<a id="more"></a></p>
-<p>相信，今后基本不会在“站务”方面做大调整了。毕竟，趋向简约的目的是为了更好地抒发内心、记录生活，不是吗？！</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;今日，对Github站做了收尾的两项调整与完善——&lt;/p&gt;
-&lt;p&gt;其一，刚刚才了解到此架构并不支持IE内核浏览，因此对提示页面做了相应的“汉化”（并使用二维码作为补救手段）。虽然有一定缺失感，但对于我低调、朴实的立足点也不是什么问题，何况，现在采用纯IE内核浏览器的人也并不是那么多了，这方面的影响可以大致忽略掉的。&lt;/p&gt;
-&lt;p&gt;其二，将原“其他”分类更名为“杂录”，并同时对自定义链接名加以完善，补充进代表分类的大写字母，再加上原有的序列号，以方便个人批量识别。
-    
-    </summary>
-    
-      <category term="杂录" scheme="http://hexo1.cpxxpc.com/categories/%E6%9D%82%E5%BD%95/"/>
-    
-      <category term="站务" scheme="http://hexo1.cpxxpc.com/categories/%E6%9D%82%E5%BD%95/%E7%AB%99%E5%8A%A1/"/>
-    
-    
-      <category term="2016" scheme="http://hexo1.cpxxpc.com/tags/2016/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>选定Github，确定“高精简”</title>
-    <link href="http://hexo1.cpxxpc.com/2016/12/03/D1/"/>
-    <id>http://hexo1.cpxxpc.com/2016/12/03/D1/</id>
-    <published>2016-12-02T16:00:00.000Z</published>
-    <updated>2017-01-11T00:39:16.438Z</updated>
-    
-    <content type="html"><![CDATA[<p>在反复权衡后，决定从今日起，Github站（基于Jekyll）作为新的个人主页/博客得以“正位”，新站决定保留原cpxxpc.com个人域名及图片外链方式，放弃”麦收客“的命名；原独立空间的Wordpress版”麦收客“转入NAS01留存，停止更新，仅作为镜像化备份；同时，将”网行志“镜像站亦转入NAS01，作为纪念性留存。</p>
-<p>至此，全功能or高精简之议终于有了定论，我还是选择了更为高效简约的第三方托管方式，虽然放弃了很多个性化、完善化的功能，但在目前境况下，还是这种高度的集成与简约更为适合我。从此以后，放弃各种折腾、各种繁琐，回归一个小小的个人主页/博客的基本立足点上来吧。也许，只有放弃了貌似华丽的功能，才能有可能回归朴实的内容，尤其对于现阶段的我，更是应该如此的！！</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;在反复权衡后，决定从今日起，Github站（基于Jekyll）作为新的个人主页/博客得以“正位”，新站决定保留原cpxxpc.com个人域名及图片外链方式，放弃”麦收客“的命名；原独立空间的Wordpress版”麦收客“转入NAS01留存，停止更新，仅作为镜像化备份；同时，
-    
-    </summary>
-    
-      <category term="杂录" scheme="http://hexo1.cpxxpc.com/categories/%E6%9D%82%E5%BD%95/"/>
-    
-      <category term="站务" scheme="http://hexo1.cpxxpc.com/categories/%E6%9D%82%E5%BD%95/%E7%AB%99%E5%8A%A1/"/>
-    
-    
-      <category term="2016" scheme="http://hexo1.cpxxpc.com/tags/2016/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>摘录/笔记/发布，各领域新调整（第三版）</title>
-    <link href="http://hexo1.cpxxpc.com/2016/12/02/D1/"/>
-    <id>http://hexo1.cpxxpc.com/2016/12/02/D1/</id>
-    <published>2016-12-01T16:00:00.000Z</published>
-    <updated>2017-01-11T05:58:59.209Z</updated>
-    
-    <content type="html"><![CDATA[<p>此前<a href="http://cpxxpc.com/2016/07/06/D1" target="_blank" rel="external">第一版</a>、<a href="http://cpxxpc.com/2016/08/29/D1" target="_blank" rel="external">第二版</a>，以下为进一步调整后的第三版各领域具体配置与流程安排：</p>
-<p>摘录类（全文）——</p>
-<ul>
-<li><strong>印象笔记</strong>（总库）</li>
-<li><strong>Instapaper</strong>（稍后读，加星入印象笔记）</li>
-<li>Safari阅读列表（稍后读，必要项入印象笔记）</li>
-<li>微信收藏（特用）</li>
-</ul>
-<p>摘录类（片段）——<a id="more"></a></p>
-<ul>
-<li>移动端：复制后通过Workflow预置工作流添加至印象笔记指定笔记中（按<a href="http://sspai.com/35281" target="_blank" rel="external">此文</a>设置）</li>
-<li>电脑端：通过印象笔记添加至相应笔记中</li>
-</ul>
-<p>笔记类——</p>
-<ul>
-<li><strong>系统备忘录</strong>（备忘+自语）</li>
-<li><strong>DayOne</strong>（日记+随拍）</li>
-<li>NAS01（文档类）</li>
-</ul>
-<p>发布类——</p>
-<ul>
-<li>博客（主页）——<ul>
-<li>移动端（侧重文字类）：<strong>Octopage</strong>书写并发布      </li>
-<li>电脑端（侧重图文类）：<strong>WordMark</strong>书写并发布（配图由七牛外链并备份至NAS01）- 定期由Github备份至NAS01</li>
-</ul>
-</li>
-<li>微博：Twitter（移动端）、官网页面（电脑端）</li>
-</ul>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;此前&lt;a href=&quot;http://cpxxpc.com/2016/07/06/D1&quot;&gt;第一版&lt;/a&gt;、&lt;a href=&quot;http://cpxxpc.com/2016/08/29/D1&quot;&gt;第二版&lt;/a&gt;，以下为进一步调整后的第三版各领域具体配置与流程安排：&lt;/p&gt;
-&lt;p&gt;摘录类（全文）——&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;印象笔记&lt;/strong&gt;（总库）&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Instapaper&lt;/strong&gt;（稍后读，加星入印象笔记）&lt;/li&gt;
-&lt;li&gt;Safari阅读列表（稍后读，必要项入印象笔记）&lt;/li&gt;
-&lt;li&gt;微信收藏（特用）&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;摘录类（片段）——
-    
-    </summary>
-    
-      <category term="杂录" scheme="http://hexo1.cpxxpc.com/categories/%E6%9D%82%E5%BD%95/"/>
-    
-      <category term="站务" scheme="http://hexo1.cpxxpc.com/categories/%E6%9D%82%E5%BD%95/%E7%AB%99%E5%8A%A1/"/>
-    
-    
-      <category term="2016" scheme="http://hexo1.cpxxpc.com/tags/2016/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>全功能or高精简？？</title>
-    <link href="http://hexo1.cpxxpc.com/2016/12/01/D1/"/>
-    <id>http://hexo1.cpxxpc.com/2016/12/01/D1/</id>
-    <published>2016-11-30T16:00:00.000Z</published>
-    <updated>2017-01-11T05:58:47.433Z</updated>
-    
-    <content type="html"><![CDATA[<p>为了尽量寻求简单、简洁，近日将早已初步构建完成的基于Github+Jekyll的主页（博客）进行了日志补全及细致完善，使之在全免费（包括空间、域名等方面）的前提下实现了高度精简（包括去除了各独立页面及日志标签等），目前已可与现有基于Wordpress的主站并行运作，并计划在一段时间内同步更新，如此”实战“测试后再决定取舍。</p>
-<p>如果最终扶正此”全免费、高精简“的新主页，势必要对相应的日常发布流程进行必要的调整，外围领域的各页面也要进行必要的调整、精简，这些等待确定后再议不迟。</p>
-<p>到底是选择<strong>正统的全功能</strong>，还是<strong>个性的高精简</strong>，相信不久之后就会有定论的。<a id="more"></a></p>
-<p>对了，此新主页的访问链接<a href="http://cpxxpc.github.io" target="_blank" rel="external">在此</a>，自己多支持下哦！！</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;为了尽量寻求简单、简洁，近日将早已初步构建完成的基于Github+Jekyll的主页（博客）进行了日志补全及细致完善，使之在全免费（包括空间、域名等方面）的前提下实现了高度精简（包括去除了各独立页面及日志标签等），目前已可与现有基于Wordpress的主站并行运作，并计划在一段时间内同步更新，如此”实战“测试后再决定取舍。&lt;/p&gt;
-&lt;p&gt;如果最终扶正此”全免费、高精简“的新主页，势必要对相应的日常发布流程进行必要的调整，外围领域的各页面也要进行必要的调整、精简，这些等待确定后再议不迟。&lt;/p&gt;
-&lt;p&gt;到底是选择&lt;strong&gt;正统的全功能&lt;/strong&gt;，还是&lt;strong&gt;个性的高精简&lt;/strong&gt;，相信不久之后就会有定论的。
-    
-    </summary>
-    
-      <category term="杂录" scheme="http://hexo1.cpxxpc.com/categories/%E6%9D%82%E5%BD%95/"/>
-    
-      <category term="站务" scheme="http://hexo1.cpxxpc.com/categories/%E6%9D%82%E5%BD%95/%E7%AB%99%E5%8A%A1/"/>
-    
-    
-      <category term="2016" scheme="http://hexo1.cpxxpc.com/tags/2016/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>博客主题变更</title>
-    <link href="http://hexo1.cpxxpc.com/2016/11/26/D1/"/>
-    <id>http://hexo1.cpxxpc.com/2016/11/26/D1/</id>
-    <published>2016-11-25T16:00:00.000Z</published>
-    <updated>2017-01-11T00:38:53.895Z</updated>
-    
-    <content type="html"><![CDATA[<p>近日，将“麦收客”的主题由No.7更改为Akina，并完成了对主题代码及文章排版的适度调整；至今日，新主题终于可以正式“接班”了。</p>
-<p>主题虽改，但“平平淡淡，简简单单”的立足点不会改，希望这些改与不改能够继续伴随我走过这段特殊的人生岁月。</p>
-<p>以下为新旧主题的对比截图，谨留作存照。<a id="more"></a></p>
-<p>旧主题——</p>
-<p><img src="http://image.cpxxpc.com/zhuti1.png" alt=""></p>
-<p>新主题——</p>
-<p><img src="http://image.cpxxpc.com/zhuti2.png" alt=""></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;近日，将“麦收客”的主题由No.7更改为Akina，并完成了对主题代码及文章排版的适度调整；至今日，新主题终于可以正式“接班”了。&lt;/p&gt;
-&lt;p&gt;主题虽改，但“平平淡淡，简简单单”的立足点不会改，希望这些改与不改能够继续伴随我走过这段特殊的人生岁月。&lt;/p&gt;
-&lt;p&gt;以下为新旧主题的对比截图，谨留作存照。
-    
-    </summary>
-    
-      <category term="杂录" scheme="http://hexo1.cpxxpc.com/categories/%E6%9D%82%E5%BD%95/"/>
-    
-      <category term="站务" scheme="http://hexo1.cpxxpc.com/categories/%E6%9D%82%E5%BD%95/%E7%AB%99%E5%8A%A1/"/>
-    
-    
-      <category term="2016" scheme="http://hexo1.cpxxpc.com/tags/2016/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>写在“巴巴变”即将关站之时</title>
-    <link href="http://hexo1.cpxxpc.com/2016/11/01/A1/"/>
-    <id>http://hexo1.cpxxpc.com/2016/11/01/A1/</id>
-    <published>2016-10-31T16:00:00.000Z</published>
-    <updated>2017-01-11T05:58:27.745Z</updated>
-    
-    <content type="html"><![CDATA[<p>今天，在经历两个多月请假休养后终于恢复上班，却不得不为应对“巴巴变”的突然关站（通知为至11月31日，实际应为11月30日）而进行了大量的迁移工作，到现在已基本完成了向网易相册的补遗迁移及博文内链接修正，虽还粗糙些，但总算是将损失尽量降到了最低。<a id="more"></a></p>
-<p><img src="http://image.cpxxpc.com/bababian1.png" alt=""></p>
-<p>说起“巴巴变”，在与之相伴的九年多时光中，很多时候是作为我的主力网络相册及博文关联相册使用的，虽然其间曾偶尔迁移至其他网络相册，虽然博客图片外链早已改至他处，但无论如何，“巴巴变”作为主力网络相册的地位始终没有变过，因为在它类似于Flickr的朴素界面下，存储着我关于这十年的太多记忆、太多情感，承载着这些的“巴巴变”，可以说早已不仅仅是一个普通的网络相册了！关于这些情感，一言难尽，就不多说了……</p>
-<p>在这即将告别“巴巴变”的时刻，就以下面的几幅截图留作一份纪念，为了这曾经的时光，为了这忘却的记忆！！</p>
-<p><img src="http://image.cpxxpc.com/bababian2.png" alt=""></p>
-<p><img src="http://image.cpxxpc.com/bababian3.png" alt=""></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;今天，在经历两个多月请假休养后终于恢复上班，却不得不为应对“巴巴变”的突然关站（通知为至11月31日，实际应为11月30日）而进行了大量的迁移工作，到现在已基本完成了向网易相册的补遗迁移及博文内链接修正，虽还粗糙些，但总算是将损失尽量降到了最低。
-    
-    </summary>
-    
-      <category term="随笔" scheme="http://hexo1.cpxxpc.com/categories/%E9%9A%8F%E7%AC%94/"/>
-    
-    
-      <category term="2016" scheme="http://hexo1.cpxxpc.com/tags/2016/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>一年</title>
-    <link href="http://hexo1.cpxxpc.com/2016/10/07/A1/"/>
-    <id>http://hexo1.cpxxpc.com/2016/10/07/A1/</id>
-    <published>2016-10-06T16:00:00.000Z</published>
-    <updated>2017-01-11T00:38:29.541Z</updated>
-    
-    <content type="html"><![CDATA[<p>一年前的今日，开始了这延续至今的“非人”历程；一年间，由跑步伤膝开始，历经前列复发，再至神经腿痛，几乎没有一日让我能重新回复“常人”感受，其间的身心苦痛已无需多言…</p>
-<p>至此纪念时刻，伤痛仍未过去，何时得以“复常”（仅近似即可），仍未可知；但此刻可知的是，唯有身心双向调养，方可获得“复常”资格，方可在明年此时坦然笑而顾之～</p>
-<p>如此，谨记此刻心境。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;一年前的今日，开始了这延续至今的“非人”历程；一年间，由跑步伤膝开始，历经前列复发，再至神经腿痛，几乎没有一日让我能重新回复“常人”感受，其间的身心苦痛已无需多言…&lt;/p&gt;
-&lt;p&gt;至此纪念时刻，伤痛仍未过去，何时得以“复常”（仅近似即可），仍未可知；但此刻可知的是，唯有身心
-    
-    </summary>
-    
-      <category term="随笔" scheme="http://hexo1.cpxxpc.com/categories/%E9%9A%8F%E7%AC%94/"/>
-    
-    
-      <category term="2016" scheme="http://hexo1.cpxxpc.com/tags/2016/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>十年</title>
-    <link href="http://hexo1.cpxxpc.com/2016/09/16/A1/"/>
-    <id>http://hexo1.cpxxpc.com/2016/09/16/A1/</id>
-    <published>2016-09-15T16:00:00.000Z</published>
-    <updated>2017-01-11T00:38:25.063Z</updated>
-    
-    <content type="html"><![CDATA[<p>今天，是我与aya的十周年结婚纪念日，也就是所谓的“锡婚”纪念日。</p>
-<p>本来，应该好好纪念一下这个“里程碑”式的日子，毕竟，这十年一路走来，也算有不少酸甜苦乐值得回顾与珍惜，但不巧的是，目前我正处于因身体原因休养期间，行动受限，心态也相应的“受限”，这也使得我与aya其实根本就忘记了今天这个9.16。也还是刚才偶然间，才想到今天是我们的纪念日，而且是纪念日中的纪念日……</p>
-<p>算了，哪天身与心略好些，愿意再补充纪念下也可；惟愿明年今日，能有一个较为理想与健康的身心，再来一起纪念我们的下一个9.16，我们的新“十年”！</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;今天，是我与aya的十周年结婚纪念日，也就是所谓的“锡婚”纪念日。&lt;/p&gt;
-&lt;p&gt;本来，应该好好纪念一下这个“里程碑”式的日子，毕竟，这十年一路走来，也算有不少酸甜苦乐值得回顾与珍惜，但不巧的是，目前我正处于因身体原因休养期间，行动受限，心态也相应的“受限”，这也使得我与a
-    
-    </summary>
-    
-      <category term="随笔" scheme="http://hexo1.cpxxpc.com/categories/%E9%9A%8F%E7%AC%94/"/>
     
     
       <category term="2016" scheme="http://hexo1.cpxxpc.com/tags/2016/"/>
