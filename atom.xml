@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://hexo1.cpxxpc.com/"/>
-  <updated>2017-03-02T02:55:37.932Z</updated>
+  <updated>2017-03-02T08:27:51.616Z</updated>
   <id>http://hexo1.cpxxpc.com/</id>
   
   <author>
@@ -14,6 +14,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo主站外停更自告</title>
+    <link href="http://hexo1.cpxxpc.com/2017/03/03/D1/"/>
+    <id>http://hexo1.cpxxpc.com/2017/03/03/D1/</id>
+    <published>2017-03-02T16:00:00.000Z</published>
+    <updated>2017-03-02T08:27:51.616Z</updated>
+    
+    <content type="html"><![CDATA[<p>为进一步减少精力占用，突出重点，决定从即日起停止各Hexo镜像站、测试站更新，仅保留主站日常更新；各电脑端Hexo目录权且仅作为同步存档备份所在。特此自告。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;为进一步减少精力占用，突出重点，决定从即日起停止各Hexo镜像站、测试站更新，仅保留主站日常更新；各电脑端Hexo目录权且仅作为同步存档备份所在。特此自告。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="杂录" scheme="http://hexo1.cpxxpc.com/categories/%E6%9D%82%E5%BD%95/"/>
+    
+      <category term="站务" scheme="http://hexo1.cpxxpc.com/categories/%E6%9D%82%E5%BD%95/%E7%AB%99%E5%8A%A1/"/>
+    
+    
+      <category term="2017" scheme="http://hexo1.cpxxpc.com/tags/2017/"/>
+    
+  </entry>
   
   <entry>
     <title>Ghost子站博文简汇</title>
@@ -62,40 +88,14 @@
   </entry>
   
   <entry>
-    <title>Hexo主站外停更自告</title>
-    <link href="http://hexo1.cpxxpc.com/2017/03/02/D2/"/>
-    <id>http://hexo1.cpxxpc.com/2017/03/02/D2/</id>
-    <published>2017-03-01T16:00:00.000Z</published>
-    <updated>2017-03-02T08:20:21.240Z</updated>
-    
-    <content type="html"><![CDATA[<p>为减少精力占用，突出重点，决定从即日起停止各Hexo镜像站、测试站更新，仅保留主站日常更新；各电脑端Hexo目录权且仅作为同步存档备份所在。特此自告。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;为减少精力占用，突出重点，决定从即日起停止各Hexo镜像站、测试站更新，仅保留主站日常更新；各电脑端Hexo目录权且仅作为同步存档备份所在。特此自告。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="杂录" scheme="http://hexo1.cpxxpc.com/categories/%E6%9D%82%E5%BD%95/"/>
-    
-      <category term="站务" scheme="http://hexo1.cpxxpc.com/categories/%E6%9D%82%E5%BD%95/%E7%AB%99%E5%8A%A1/"/>
-    
-    
-      <category term="2017" scheme="http://hexo1.cpxxpc.com/tags/2017/"/>
-    
-  </entry>
-  
-  <entry>
     <title>摘录/笔记/发布全流程（第四版.修正一）</title>
     <link href="http://hexo1.cpxxpc.com/2017/03/01/D1/"/>
     <id>http://hexo1.cpxxpc.com/2017/03/01/D1/</id>
     <published>2017-02-28T16:00:00.000Z</published>
-    <updated>2017-03-01T06:04:47.000Z</updated>
+    <updated>2017-03-02T13:10:15.000Z</updated>
     
     <content type="html"><![CDATA[<p>此前<a href="http://cpxxpc.com/2016/07/06/D1" target="_blank" rel="external">第一版</a>、<a href="http://cpxxpc.com/2016/08/29/D1" target="_blank" rel="external">第二版</a>、<a href="http://cpxxpc.com/2016/12/02/D1/" target="_blank" rel="external">第三版</a>、<a href="http://cpxxpc.com/2017/01/21/D1/" target="_blank" rel="external">第四版</a>，以下为第四版局部修正一。</p>
-<p>PS：此版通过思维导图工具MindNode编制并导出，导图原版可<a href="https://my.mindnode.com/A6FeqhT6RugmGySsR9okYCYsMsZKsojx5J7TWSg4#59.5,47.0,2" target="_blank" rel="external">点此</a>浏览。<a id="more"></a></p>
+<p>PS：此版通过思维导图工具MindNode编制并导出，导图原版可<a href="https://my.mindnode.com/SJHsbyrr3DuoprssJpi1MpbmqAspwC4TswBz9BtL" target="_blank" rel="external">点此</a>浏览。<a id="more"></a></p>
 <h4 id="A-摘录类"><a href="#A-摘录类" class="headerlink" title="A 摘录类"></a>A 摘录类</h4><h5 id="a-全文摘录"><a href="#a-全文摘录" class="headerlink" title="a 全文摘录"></a>a 全文摘录</h5><ul>
 <li>移动端<ul>
 <li><strong>Instapaper</strong>丨app+插件</li>
@@ -169,34 +169,7 @@
     <summary type="html">
     
       &lt;p&gt;此前&lt;a href=&quot;http://cpxxpc.com/2016/07/06/D1&quot;&gt;第一版&lt;/a&gt;、&lt;a href=&quot;http://cpxxpc.com/2016/08/29/D1&quot;&gt;第二版&lt;/a&gt;、&lt;a href=&quot;http://cpxxpc.com/2016/12/02/D1/&quot;&gt;第三版&lt;/a&gt;、&lt;a href=&quot;http://cpxxpc.com/2017/01/21/D1/&quot;&gt;第四版&lt;/a&gt;，以下为第四版局部修正一。&lt;/p&gt;
-&lt;p&gt;PS：此版通过思维导图工具MindNode编制并导出，导图原版可&lt;a href=&quot;https://my.mindnode.com/A6FeqhT6RugmGySsR9okYCYsMsZKsojx5J7TWSg4#59.5,47.0,2&quot;&gt;点此&lt;/a&gt;浏览。
-    
-    </summary>
-    
-      <category term="杂录" scheme="http://hexo1.cpxxpc.com/categories/%E6%9D%82%E5%BD%95/"/>
-    
-      <category term="站务" scheme="http://hexo1.cpxxpc.com/categories/%E6%9D%82%E5%BD%95/%E7%AB%99%E5%8A%A1/"/>
-    
-    
-      <category term="2017" scheme="http://hexo1.cpxxpc.com/tags/2017/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo全面拥抱VPS</title>
-    <link href="http://hexo1.cpxxpc.com/2017/02/28/D1/"/>
-    <id>http://hexo1.cpxxpc.com/2017/02/28/D1/</id>
-    <published>2017-02-27T16:00:00.000Z</published>
-    <updated>2017-02-28T08:17:14.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>昨晚，在主机公园VPS上构建了Hexo运行环境（部分参考了<a href="https://www.v2ex.com/t/154707" target="_blank" rel="external">此文</a>），随后将Hexo博客主站数据迁移至此，并通过ftpsync方式发布至同VPS站点目录，实现了主站的纯VPS化。</p>
-<p>今天，在VPS及各电脑（包括树莓派）上安装并配置了Syncthing（参考了<a href="http://www.jianshu.com/p/4235cc85c32d" target="_blank" rel="external">此文</a>），解决了VPS中.md文件的本地备份与同步的问题（当然，移动端此法无效，是通过FileExplorer中添加ftp的方式实现的）。</p>
-<p>Hexo@VPS，一定要稳住啊！</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;昨晚，在主机公园VPS上构建了Hexo运行环境（部分参考了&lt;a href=&quot;https://www.v2ex.com/t/154707&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;此文&lt;/a&gt;），随后将Hexo博客主站数据迁移至此，并通过ftpsync方
+&lt;p&gt;PS：此版通过思维导图工具MindNode编制并导出，导图原版可&lt;a href=&quot;https://my.mindnode.com/SJHsbyrr3DuoprssJpi1MpbmqAspwC4TswBz9BtL&quot;&gt;点此&lt;/a&gt;浏览。
     
     </summary>
     
@@ -260,6 +233,33 @@
       <category term="杂录" scheme="http://hexo1.cpxxpc.com/categories/%E6%9D%82%E5%BD%95/"/>
     
       <category term="体验" scheme="http://hexo1.cpxxpc.com/categories/%E6%9D%82%E5%BD%95/%E4%BD%93%E9%AA%8C/"/>
+    
+    
+      <category term="2017" scheme="http://hexo1.cpxxpc.com/tags/2017/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo全面拥抱VPS</title>
+    <link href="http://hexo1.cpxxpc.com/2017/02/28/D1/"/>
+    <id>http://hexo1.cpxxpc.com/2017/02/28/D1/</id>
+    <published>2017-02-27T16:00:00.000Z</published>
+    <updated>2017-02-28T08:17:14.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>昨晚，在主机公园VPS上构建了Hexo运行环境（部分参考了<a href="https://www.v2ex.com/t/154707" target="_blank" rel="external">此文</a>），随后将Hexo博客主站数据迁移至此，并通过ftpsync方式发布至同VPS站点目录，实现了主站的纯VPS化。</p>
+<p>今天，在VPS及各电脑（包括树莓派）上安装并配置了Syncthing（参考了<a href="http://www.jianshu.com/p/4235cc85c32d" target="_blank" rel="external">此文</a>），解决了VPS中.md文件的本地备份与同步的问题（当然，移动端此法无效，是通过FileExplorer中添加ftp的方式实现的）。</p>
+<p>Hexo@VPS，一定要稳住啊！</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;昨晚，在主机公园VPS上构建了Hexo运行环境（部分参考了&lt;a href=&quot;https://www.v2ex.com/t/154707&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;此文&lt;/a&gt;），随后将Hexo博客主站数据迁移至此，并通过ftpsync方
+    
+    </summary>
+    
+      <category term="杂录" scheme="http://hexo1.cpxxpc.com/categories/%E6%9D%82%E5%BD%95/"/>
+    
+      <category term="站务" scheme="http://hexo1.cpxxpc.com/categories/%E6%9D%82%E5%BD%95/%E7%AB%99%E5%8A%A1/"/>
     
     
       <category term="2017" scheme="http://hexo1.cpxxpc.com/tags/2017/"/>
@@ -759,6 +759,43 @@
   </entry>
   
   <entry>
+    <title>摘录/笔记/发布，各领域新调整（第三版局部修订）</title>
+    <link href="http://hexo1.cpxxpc.com/2017/01/08/D2/"/>
+    <id>http://hexo1.cpxxpc.com/2017/01/08/D2/</id>
+    <published>2017-01-07T16:00:00.000Z</published>
+    <updated>2017-01-11T06:00:20.081Z</updated>
+    
+    <content type="html"><![CDATA[<p>顺应整体，对原<a href="http://cpxxpc.com/2016/12/02/D1/" target="_blank" rel="external">第三版</a>“发布类”部分做了以下局部修订：</p>
+<p>发布类——</p>
+<ul>
+<li>博客（主页）——<ul>
+<li>移动端（侧重文字类）：<strong>Simplenote</strong>书写并同步，Mac05电脑端发布      </li>
+<li>电脑端（侧重图文类）：<strong>MarkEditor</strong>书写并由NAS01同步至Mac05（配图由七牛外链并备份至NAS01）- Mac05命令行发布 - 自动由Mac05备份至NAS01</li>
+</ul>
+</li>
+<li>微博：Twitter（移动端）、官网页面（电脑端）</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;顺应整体，对原&lt;a href=&quot;http://cpxxpc.com/2016/12/02/D1/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;第三版&lt;/a&gt;“发布类”部分做了以下局部修订：&lt;/p&gt;
+&lt;p&gt;发布类——&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;博客（主页）
+    
+    </summary>
+    
+      <category term="杂录" scheme="http://hexo1.cpxxpc.com/categories/%E6%9D%82%E5%BD%95/"/>
+    
+      <category term="站务" scheme="http://hexo1.cpxxpc.com/categories/%E6%9D%82%E5%BD%95/%E7%AB%99%E5%8A%A1/"/>
+    
+    
+      <category term="2017" scheme="http://hexo1.cpxxpc.com/tags/2017/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Hexo+Git新架构，写博新体验</title>
     <link href="http://hexo1.cpxxpc.com/2017/01/08/D1/"/>
     <id>http://hexo1.cpxxpc.com/2017/01/08/D1/</id>
@@ -787,43 +824,6 @@
     
       &lt;p&gt;近日，为了排解腰腿不适的身心痛楚，利用单位及家中的空闲时间，从零开始摸索着鼓弄了一番Hexo这个比较极客的东西。还好，时间并未完全浪费，目前已初步掌握了用其建博的流程与要领，并且已构建出了一套以Mac05为终端的更新与发布平台（以Mac05为本地端，Github为网络端）。经过几天的测试与调整，已决定将它“扶正”，取代原Jekyll版的地位。&lt;/p&gt;
 &lt;p&gt;作出这样的决定，并非一时冲动，而是基于以下几点的考虑—
-    
-    </summary>
-    
-      <category term="杂录" scheme="http://hexo1.cpxxpc.com/categories/%E6%9D%82%E5%BD%95/"/>
-    
-      <category term="站务" scheme="http://hexo1.cpxxpc.com/categories/%E6%9D%82%E5%BD%95/%E7%AB%99%E5%8A%A1/"/>
-    
-    
-      <category term="2017" scheme="http://hexo1.cpxxpc.com/tags/2017/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>摘录/笔记/发布，各领域新调整（第三版局部修订）</title>
-    <link href="http://hexo1.cpxxpc.com/2017/01/08/D2/"/>
-    <id>http://hexo1.cpxxpc.com/2017/01/08/D2/</id>
-    <published>2017-01-07T16:00:00.000Z</published>
-    <updated>2017-01-11T06:00:20.081Z</updated>
-    
-    <content type="html"><![CDATA[<p>顺应整体，对原<a href="http://cpxxpc.com/2016/12/02/D1/" target="_blank" rel="external">第三版</a>“发布类”部分做了以下局部修订：</p>
-<p>发布类——</p>
-<ul>
-<li>博客（主页）——<ul>
-<li>移动端（侧重文字类）：<strong>Simplenote</strong>书写并同步，Mac05电脑端发布      </li>
-<li>电脑端（侧重图文类）：<strong>MarkEditor</strong>书写并由NAS01同步至Mac05（配图由七牛外链并备份至NAS01）- Mac05命令行发布 - 自动由Mac05备份至NAS01</li>
-</ul>
-</li>
-<li>微博：Twitter（移动端）、官网页面（电脑端）</li>
-</ul>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;顺应整体，对原&lt;a href=&quot;http://cpxxpc.com/2016/12/02/D1/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;第三版&lt;/a&gt;“发布类”部分做了以下局部修订：&lt;/p&gt;
-&lt;p&gt;发布类——&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;博客（主页）
     
     </summary>
     
